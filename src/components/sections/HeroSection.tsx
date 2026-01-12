@@ -19,7 +19,28 @@ export function HeroSection() {
         *Não é necessário cadastro, vizualize e baixe a sua ficha de treino
         gratuitamente.
       </p>
-      <button className="bg-[#DC2626] px-10 py-5 rounded-[100px] text-white font-semibold text-4xl flex items-center">
+      {/* <button className="bg-[#DC2626] px-10 py-5 rounded-full text-white font-semibold text-4xl flex items-center">
+        Obter protocolo de treino
+      </button> */}
+      <button
+        className="
+          bg-[#DC2626]
+          px-10 py-5
+          rounded-full
+          text-white
+          font-semibold
+          text-3xl
+          flex items-center
+          transition-all
+          duration-300
+          hover:-translate-y-1
+          hover:shadow-xl
+          hover:shadow-red-600/40
+          cursor-pointer
+          hover:brightness-105
+          active:scale-95
+        "
+      >
         Obter protocolo de treino
       </button>
     </section>
