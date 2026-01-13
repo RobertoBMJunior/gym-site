@@ -16,7 +16,7 @@ export function HeroSection() {
         <Image src="/imageTraining3.svg" alt="" width={130} height={200} />
       </div>
       <p className="text-center text-sm font-semibold max-w-[360px]">
-        *Não é necessário cadastro, vizualize e baixe a sua ficha de treino
+        *Não é necessário cadastro, visualize e baixe a sua ficha de treino
         gratuitamente.
       </p>
       {/* <button className="bg-[#DC2626] px-10 py-5 rounded-full text-white font-semibold text-4xl flex items-center">
