@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function HeroSection() {
   return (
-    <section className="w-full flex flex-col items-center gap-4 py-4 px-50">
+    <section className="w-full flex flex-col items-center gap-4 py-4 px-50 mb-4">
       <h1 className="text-5xl text-center font-bold max-w-200">
         Treino personalizado para o seu corpo, nível e objetivo
       </h1>
