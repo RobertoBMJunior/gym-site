@@ -32,7 +32,7 @@ export function Header() {
 
         <nav className="flex gap-4 font-semibold">
           <Link
-            href="/"
+            href="/#como-funciona"
             className="
               px-3
               py-2
@@ -45,7 +45,7 @@ export function Header() {
           </Link>
 
           <Link
-            href="/"
+            href="/#beneficios"
             className="
               px-3
               py-2

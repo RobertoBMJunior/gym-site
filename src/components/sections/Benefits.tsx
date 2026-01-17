@@ -5,7 +5,7 @@ import { CardBenefits } from '../cards/CardBenefits'
 
 export function Benefits() {
   return (
-    <section className="border-t border-slate-200 py-8">
+    <section id="beneficios" className="border-t border-slate-200 py-8">
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-4">Benefícios</h2>
         <div className="grid grid-cols-4 gap-6">

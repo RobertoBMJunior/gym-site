@@ -3,7 +3,10 @@ import Image from 'next/image'
 
 export function HowItWorks() {
   return (
-    <section className="border-t border-slate-200 bg-slate-100 py-10">
+    <section
+      id="como-funciona"
+      className="border-t border-slate-200 bg-slate-100 py-10"
+    >
       <div className="max-w-7xl mx-auto flex items-center gap-12 px-6">
         <div className="flex-1">
           <h2 className="text-4xl font-bold">
