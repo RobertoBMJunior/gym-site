@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export function HeroSection() {
   return (
@@ -22,8 +23,10 @@ export function HeroSection() {
       {/* <button className="bg-[#DC2626] px-10 py-5 rounded-full text-white font-semibold text-4xl flex items-center">
         Obter protocolo de treino
       </button> */}
-      <button
-        className="
+
+      <Link href="/perguntas-protocolo">
+        <button
+          className="
           bg-[#DC2626]
           px-10 py-5
           rounded-full
@@ -40,9 +43,10 @@ export function HeroSection() {
           hover:brightness-105
           active:scale-95
         "
-      >
-        Obter protocolo de treino
-      </button>
+        >
+          Obter protocolo de treino
+        </button>
+      </Link>
     </section>
   )
 }
