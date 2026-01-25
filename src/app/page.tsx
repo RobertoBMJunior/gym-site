@@ -5,11 +5,11 @@ import { HowItWorks } from '@/components/sections/HowItWorks'
 
 export default function Home() {
   return (
-    <div className="">
+    <main className="">
       <HeroSection />
       <HowItWorks />
       <AdSection />
       <Benefits />
-    </div>
+    </main>
   )
 }
