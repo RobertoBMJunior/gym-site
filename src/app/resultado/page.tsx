@@ -1,97 +1,89 @@
-import { BadgeCheck, Dumbbell, Download } from 'lucide-react'
+// app/resultado/page.tsx
 
-export default function ResultadoPage() {
+import { WorkoutCard } from './components/WorkoutCard'
+
+export default function ResultPage() {
   return (
-    <main className="min-h-screen bg-slate-50 px-6 py-12">
-      <div className="max-w-4xl mx-auto">
+    <section className="min-h-screen py-12">
+      <div className="max-w-5xl mx-auto px-6">
         {/* Header */}
         <div className="text-center mb-10">
-          <h1 className="text-4xl font-bold text-slate-900 mb-2">
+          <h1 className="text-4xl font-bold text-slate-800 mb-4">
             Seu protocolo de treino está pronto 💪
           </h1>
-          <p className="text-slate-600">
-            Criamos um treino baseado nas suas respostas.
+          <p className="text-slate-600 max-w-2xl mx-auto">
+            Com base nas suas respostas, montamos um plano equilibrado, focado
+            em evolução progressiva e resultados consistentes.
           </p>
         </div>
 
-        {/* Resumo do perfil */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-10">
-          <div className="bg-white rounded-xl p-4 text-center shadow-sm">
-            <p className="text-slate-500 text-sm">Objetivo</p>
-            <p className="font-semibold text-slate-900">
-              Ganho de massa muscular
-            </p>
-          </div>
-
-          <div className="bg-white rounded-xl p-4 text-center shadow-sm">
-            <p className="text-slate-500 text-sm">Nível</p>
-            <p className="font-semibold text-slate-900">Intermediário</p>
-          </div>
-
-          <div className="bg-white rounded-xl p-4 text-center shadow-sm">
-            <p className="text-slate-500 text-sm">Frequência</p>
-            <p className="font-semibold text-slate-900">4x por semana</p>
-          </div>
-        </div>
-
-        {/* Card principal do protocolo */}
-        <div className="bg-white rounded-2xl shadow-md p-8 mb-10">
-          <div className="flex items-center gap-3 mb-4">
-            <Dumbbell className="text-red-600" size={28} />
-            <h2 className="text-2xl font-bold text-slate-900">
-              Protocolo recomendado
-            </h2>
-          </div>
-
+        {/* Contextualização */}
+        <div className="max-w-xl mx-auto mb-12 text-center">
           <ul className="space-y-3 text-slate-700 font-medium">
-            <li>🏋️ Divisão: Treino ABC</li>
+            <li>🏋️ Divisão: Treino ABCD</li>
             <li>📅 Frequência: 4 dias por semana</li>
             <li>⏱️ Duração média: 50–60 minutos</li>
             <li>🎯 Foco: Hipertrofia muscular</li>
           </ul>
         </div>
 
-        {/* O que está incluso */}
-        <div className="bg-white rounded-2xl shadow-sm p-8 mb-12">
-          <h3 className="text-xl font-bold text-slate-900 mb-4">
-            O que você vai receber
-          </h3>
+        {/* Treinos */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-14">
+          <WorkoutCard
+            title="Treino A"
+            subtitle="Peito • Ombro • Tríceps"
+            exercises={[
+              { name: 'Supino reto', sets: '4×8–10' },
+              { name: 'Supino inclinado', sets: '3×10' },
+              { name: 'Crucifixo', sets: '3×12' },
+              { name: 'Tríceps corda', sets: '3×12' },
+            ]}
+          />
 
-          <div className="grid gap-3">
-            <div className="flex items-center gap-2">
-              <BadgeCheck className="text-green-600" />
-              <span>Exercícios organizados por grupo muscular</span>
-            </div>
+          <WorkoutCard
+            title="Treino B"
+            subtitle="Costas • Bíceps"
+            exercises={[
+              { name: 'Puxada frontal', sets: '4×10' },
+              { name: 'Remada curvada', sets: '3×10' },
+              { name: 'Remada baixa', sets: '3×12' },
+              { name: 'Rosca direta', sets: '3×12' },
+            ]}
+          />
 
-            <div className="flex items-center gap-2">
-              <BadgeCheck className="text-green-600" />
-              <span>Sugestão de séries e repetições</span>
-            </div>
+          <WorkoutCard
+            title="Treino C"
+            subtitle="Pernas • Glúteos"
+            exercises={[
+              { name: 'Agachamento livre', sets: '4×8' },
+              { name: 'Leg press', sets: '3×10' },
+              { name: 'Mesa flexora', sets: '3×12' },
+              { name: 'Panturrilha em pé', sets: '4×15' },
+            ]}
+          />
 
-            <div className="flex items-center gap-2">
-              <BadgeCheck className="text-green-600" />
-              <span>Tempo de descanso recomendado</span>
-            </div>
-
-            <div className="flex items-center gap-2">
-              <BadgeCheck className="text-green-600" />
-              <span>Treino pensado para evolução progressiva</span>
-            </div>
-          </div>
+          <WorkoutCard
+            title="Treino D"
+            subtitle="Core • Cardiorrespiratório"
+            exercises={[
+              { name: 'Prancha abdominal', sets: '3×30–45s' },
+              { name: 'Elevação de pernas', sets: '3×12' },
+              { name: 'Abdominal crunch', sets: '3×15' },
+              { name: 'Caminhada rápida', sets: '20–30 min' },
+            ]}
+          />
         </div>
 
-        {/* CTA final */}
+        {/* CTA */}
         <div className="text-center">
-          <button className="inline-flex items-center gap-3 bg-red-600 hover:brightness-105 transition px-10 py-5 rounded-full text-white font-semibold text-xl cursor-pointer">
-            <Download />
-            Baixar protocolo em PDF
-          </button>
-
-          <p className="text-slate-500 text-sm mt-4">
-            Você pode salvar ou imprimir seu treino.
+          <p className="text-slate-600 mb-4">
+            Quer salvar esse treino para acessar quando quiser?
           </p>
+          <button className="px-8 py-4 bg-red-600 text-white rounded-2xl font-semibold hover:bg-red-700 transition">
+            📄 Baixar treino em PDF
+          </button>
         </div>
       </div>
-    </main>
+    </section>
   )
 }
