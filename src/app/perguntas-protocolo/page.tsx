@@ -5,10 +5,13 @@ import { Stepper } from './components/Stepper'
 import { useState } from 'react'
 import { questions } from './questions'
 import { useForm, useWatch } from 'react-hook-form'
+import { useRouter } from 'next/navigation'
 
 type FormAnswers = Record<string, string | number>
 
 export default function PerguntasProtocoloPage() {
+  const router = useRouter()
+
   const { register, handleSubmit, setValue, control } = useForm<FormAnswers>()
 
   const [currentStep, setCurrentStep] = useState(0)
@@ -21,6 +24,8 @@ export default function PerguntasProtocoloPage() {
     control,
     name: currentQuestion.id,
   })
+
+  const hasAnsweredCurrent = selectedValue !== undefined && selectedValue !== ''
 
   function nextQuestion() {
     if (currentStep < totalSteps - 1) {
@@ -46,6 +51,7 @@ export default function PerguntasProtocoloPage() {
 
     setAnswers(data)
     console.log(answers)
+    router.push('/resultado')
   }
 
   return (
@@ -120,7 +126,7 @@ export default function PerguntasProtocoloPage() {
             <button
               type="button"
               onClick={nextQuestion}
-              disabled={currentStep === totalSteps - 1}
+              disabled={!hasAnsweredCurrent}
               className="px-6 py-3 rounded-xl bg-slate-900 text-white font-semibold hover:bg-slate-700 transition-colors disabled:opacity-40"
             >
               Próxima pergunta
@@ -128,6 +134,7 @@ export default function PerguntasProtocoloPage() {
           ) : (
             <button
               type="submit"
+              disabled={!hasAnsweredCurrent}
               className="px-6 py-3 rounded-xl bg-green-700 text-white font-semibold hover:bg-green-800 transition-colors disabled:opacity-40"
             >
               Enviar Formulário
