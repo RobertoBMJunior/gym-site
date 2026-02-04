@@ -79,7 +79,7 @@ export default function ResultPage() {
           <p className="text-slate-600 mb-4">
             Quer salvar esse treino para acessar quando quiser?
           </p>
-          <button className="px-8 py-4 bg-red-600 text-white rounded-2xl font-semibold hover:bg-red-700 transition">
+          <button className="px-8 py-4 bg-red-600 text-white rounded-2xl font-semibold hover:bg-red-700 transition cursor-pointer">
             📄 Baixar treino em PDF
           </button>
         </div>
