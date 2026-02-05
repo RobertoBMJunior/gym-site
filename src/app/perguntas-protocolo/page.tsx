@@ -7,15 +7,17 @@ import { questions } from './questions'
 import { useForm, useWatch } from 'react-hook-form'
 import { useRouter } from 'next/navigation'
 
+import { useAnswers } from '../context/AnswersContext'
+
 type FormAnswers = Record<string, string | number>
 
 export default function PerguntasProtocoloPage() {
   const router = useRouter()
 
   const { register, handleSubmit, setValue, control } = useForm<FormAnswers>()
+  const { setAnswers } = useAnswers()
 
   const [currentStep, setCurrentStep] = useState(0)
-  const [answers, setAnswers] = useState<FormAnswers>({})
 
   const totalSteps = questions.length
   const currentQuestion = questions[currentStep]
@@ -50,7 +52,6 @@ export default function PerguntasProtocoloPage() {
     if (currentStep !== totalSteps - 1) return
 
     setAnswers(data)
-    console.log(answers)
     router.push('/resultado')
   }
 

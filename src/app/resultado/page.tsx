@@ -1,8 +1,14 @@
+'use client'
 // app/resultado/page.tsx
 
+import { useAnswers } from '../context/AnswersContext'
 import { WorkoutCard } from './components/WorkoutCard'
 
 export default function ResultPage() {
+  const { answers } = useAnswers()
+
+  console.log(answers)
+
   return (
     <section className="min-h-screen py-12">
       <div className="max-w-5xl mx-auto px-6">
