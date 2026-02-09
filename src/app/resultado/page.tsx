@@ -6,7 +6,6 @@ import { WorkoutCard } from './components/WorkoutCard'
 
 export default function ResultPage() {
   const { answers } = useAnswers()
-
   console.log(answers)
 
   return (
@@ -36,46 +35,46 @@ export default function ResultPage() {
         {/* Treinos */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-14">
           <WorkoutCard
-            title="Treino A"
-            subtitle="Peito • Ombro • Tríceps"
+            label="Treino A"
+            caption="Peito • Ombro • Tríceps"
             exercises={[
-              { name: 'Supino reto', sets: '4×8–10' },
-              { name: 'Supino inclinado', sets: '3×10' },
-              { name: 'Crucifixo', sets: '3×12' },
-              { name: 'Tríceps corda', sets: '3×12' },
+              { name: 'Supino reto', sets: '4', reps: '8-10' },
+              { name: 'Supino inclinado', sets: '3', reps: '10' },
+              { name: 'Crucifixo', sets: '3', reps: '12' },
+              { name: 'Tríceps corda', sets: '3', reps: '12' },
             ]}
           />
 
           <WorkoutCard
-            title="Treino B"
-            subtitle="Costas • Bíceps"
+            label="Treino B"
+            caption="Costas • Bíceps"
             exercises={[
-              { name: 'Puxada frontal', sets: '4×10' },
-              { name: 'Remada curvada', sets: '3×10' },
-              { name: 'Remada baixa', sets: '3×12' },
-              { name: 'Rosca direta', sets: '3×12' },
+              { name: 'Puxada frontal', sets: '4', reps: '10' },
+              { name: 'Remada curvada', sets: '4', reps: '10' },
+              { name: 'Remada baixa', sets: '4', reps: '10' },
+              { name: 'Rosca direta', sets: '4', reps: '10' },
             ]}
           />
 
           <WorkoutCard
-            title="Treino C"
-            subtitle="Pernas • Glúteos"
+            label="Treino C"
+            caption="Pernas • Glúteos"
             exercises={[
-              { name: 'Agachamento livre', sets: '4×8' },
-              { name: 'Leg press', sets: '3×10' },
-              { name: 'Mesa flexora', sets: '3×12' },
-              { name: 'Panturrilha em pé', sets: '4×15' },
+              { name: 'Agachamento livre', sets: '4', reps: '10' },
+              { name: 'Leg press', sets: '4', reps: '10' },
+              { name: 'Mesa flexora', sets: '4', reps: '10' },
+              { name: 'Panturrilha em pé', sets: '4', reps: '10' },
             ]}
           />
 
           <WorkoutCard
-            title="Treino D"
-            subtitle="Core • Cardiorrespiratório"
+            label="Treino D"
+            caption="Core • Cardiorrespiratório"
             exercises={[
-              { name: 'Prancha abdominal', sets: '3×30–45s' },
-              { name: 'Elevação de pernas', sets: '3×12' },
-              { name: 'Abdominal crunch', sets: '3×15' },
-              { name: 'Caminhada rápida', sets: '20–30 min' },
+              { name: 'Prancha abdominal', sets: '4', reps: '10' },
+              { name: 'Elevação de pernas', sets: '4', reps: '10' },
+              { name: 'Abdominal crunch', sets: '4', reps: '10' },
+              { name: 'Caminhada rápida', sets: '4', reps: '10' },
             ]}
           />
         </div>

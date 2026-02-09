@@ -6,6 +6,7 @@ interface ExerciseList {
 
 interface TrainingPlan {
   label: string
+  caption: string
   exercises: ExerciseList[]
 }
 
@@ -22,6 +23,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
     workOutRoutine: [
       {
         label: 'Treino Full Body',
+        caption: 'Treino para o corpo todo',
         exercises: [
           { name: 'Agachamento livre', sets: '3', reps: '10–12' },
           { name: 'Supino reto', sets: '3', reps: '10–12' },
@@ -38,7 +40,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
     title: 'Treino AB Básico',
     workOutRoutine: [
       {
-        label: 'Treino A — Superior',
+        label: 'Treino A',
+        caption: 'Superior',
         exercises: [
           { name: 'Supino reto', sets: '3', reps: '8–12' },
           { name: 'Remada curvada', sets: '3', reps: '8–12' },
@@ -48,7 +51,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
         ],
       },
       {
-        label: 'Treino B — Inferior',
+        label: 'Treino B',
+        caption: 'Inferior',
         exercises: [
           { name: 'Agachamento', sets: '3', reps: '8–12' },
           { name: 'Leg press', sets: '3', reps: '10–12' },
@@ -64,7 +68,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
     title: 'Treino ABC Clássico',
     workOutRoutine: [
       {
-        label: 'Treino A — Peito e tríceps',
+        label: 'Treino A',
+        caption: 'Peito • Ombro • Tríceps',
         exercises: [
           { name: 'Supino reto', sets: '3', reps: '8–12' },
           { name: 'Crucifixo', sets: '3', reps: '12' },
@@ -72,7 +77,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
       },
 
       {
-        label: 'Treino B — Costas e bíceps',
+        label: 'Treino B',
+        caption: 'Costas • Bíceps',
         exercises: [
           { name: 'Puxada na frente', sets: '3', reps: '10' },
           { name: 'Rosca direta', sets: '3', reps: '10' },
@@ -80,7 +86,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
       },
 
       {
-        label: 'Treino C — Pernas',
+        label: 'Treino C',
+        caption: 'Pernas • Glúteos',
         exercises: [
           { name: 'Agachamento', sets: '3', reps: '8–12' },
           { name: 'Leg press', sets: '3', reps: '10–12' },
@@ -96,7 +103,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
     title: 'Upper / Lower Intermediário',
     workOutRoutine: [
       {
-        label: 'Upper — Parte superior',
+        label: 'Upper',
+        caption: 'Parte superior',
         exercises: [
           { name: 'Supino inclinado', sets: '4', reps: '8–10' },
           { name: 'Remada baixa', sets: '4', reps: '8–10' },
@@ -106,7 +114,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
         ],
       },
       {
-        label: 'Lower — Parte inferior',
+        label: 'Lower',
+        caption: 'Parte inferior',
         exercises: [
           { name: 'Agachamento livre', sets: '4', reps: '8–10' },
           { name: 'Leg press', sets: '3', reps: '10' },
@@ -124,6 +133,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
     workOutRoutine: [
       {
         label: 'Circuito Full Body',
+        caption: 'Treino em Circuito (Condicionamento)',
         exercises: [
           { name: 'Agachamento com halteres', sets: '3', reps: '15' },
           { name: 'Flexão de braço', sets: '3', reps: '12' },
@@ -140,7 +150,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
     title: 'Treino AB Upper / Lower (Máquinas)',
     workOutRoutine: [
       {
-        label: 'Upper A — Peito reto + ombro lateral/posterior',
+        label: 'Upper A',
+        caption: 'Peito reto + ombro lateral/posterior',
         exercises: [
           { name: 'Supino reto articulado', sets: '3', reps: '6–10' },
           { name: 'Peck deck / Chest fly máquina', sets: '3', reps: '10–15' },
@@ -158,7 +169,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
       },
 
       {
-        label: 'Lower A — Ênfase em quadríceps',
+        label: 'Lower A',
+        caption: 'Ênfase em quadríceps',
         exercises: [
           { name: 'Leg press', sets: '4', reps: '8–12' },
           { name: 'Mesa flexora', sets: '3', reps: '10–15' },
@@ -173,7 +185,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
       },
 
       {
-        label: 'Upper B — Peito inclinado + ombro completo',
+        label: 'Upper B',
+        caption: 'Peito inclinado + ombro completo',
         exercises: [
           { name: 'Supino inclinado articulado', sets: '3', reps: '6–10' },
           { name: 'Chest fly máquina', sets: '3', reps: '10–15' },
@@ -191,7 +204,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
       },
 
       {
-        label: 'Lower B — Ênfase posterior e glúteos',
+        label: 'Lower B',
+        caption: 'Ênfase posterior e glúteos',
         exercises: [
           {
             name: 'Hack machine ou agachamento no Smith',
@@ -212,7 +226,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
     title: 'Treino Feminino 5x (Foco em Inferiores)',
     workOutRoutine: [
       {
-        label: 'Lower A — Quadríceps',
+        label: 'Lower A',
+        caption: 'Quadríceps',
         exercises: [
           { name: 'Agachamento livre', sets: '4', reps: '8–10' },
           { name: 'Leg press', sets: '3', reps: '10–12' },
@@ -223,7 +238,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
       },
 
       {
-        label: 'Upper A — Costas e braços',
+        label: 'Upper A',
+        caption: 'Costas e braços',
         exercises: [
           { name: 'Puxada na frente', sets: '3', reps: '8–12' },
           { name: 'Remada baixa', sets: '3', reps: '8–12' },
@@ -235,7 +251,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
       },
 
       {
-        label: 'Lower B — Glúteos',
+        label: 'Lower B',
+        caption: 'Glúteos',
         exercises: [
           { name: 'Hip thrust', sets: '4', reps: '8–12' },
           { name: 'Glute bridge', sets: '3', reps: '12' },
@@ -246,7 +263,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
       },
 
       {
-        label: 'Upper B — Peito e ombro',
+        label: 'Upper B',
+        caption: 'Peito e ombro',
         exercises: [
           { name: 'Supino máquina ou halteres', sets: '3', reps: '8–12' },
           { name: 'Crucifixo máquina', sets: '3', reps: '12' },
@@ -258,7 +276,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
       },
 
       {
-        label: 'Lower C — Posterior de coxa',
+        label: 'Lower C',
+        caption: 'Posterior de coxa',
         exercises: [
           { name: 'Stiff', sets: '4', reps: '8–10' },
           { name: 'Mesa flexora', sets: '3', reps: '10–12' },
