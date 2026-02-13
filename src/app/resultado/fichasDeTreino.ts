@@ -288,4 +288,22 @@ export const fichasDeTreino: WorkOutPlan[] = [
       },
     ],
   },
+
+  {
+    id: 'fullbody3x',
+    title: 'Full Body 3x por semana',
+    workOutRoutine: [
+      {
+        label: 'Treino Full Body',
+        caption: 'Treino para dias alternados',
+        exercises: [
+          { name: 'Agachamento', sets: '3', reps: '10–12' },
+          { name: 'Supino reto', sets: '3', reps: '10–12' },
+          { name: 'Puxada na frente', sets: '3', reps: '10–12' },
+          { name: 'Elevação lateral', sets: '3', reps: '12–15' },
+          { name: 'Abdominal', sets: '3', reps: '15' },
+        ],
+      },
+    ],
+  },
 ]
