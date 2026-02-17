@@ -1,4 +1,5 @@
-//fichasDeTreino.ts
+// fichasDeTreino.ts
+
 interface ExerciseList {
   name: string
   sets: string | number
@@ -14,6 +15,7 @@ interface TrainingPlan {
 interface WorkOutPlan {
   id: string
   title: string
+  pdfFile: string
   workOutRoutine: TrainingPlan[]
 }
 
@@ -21,6 +23,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
   {
     id: 'fullbody',
     title: 'Full Body Iniciante',
+    pdfFile: '/pdfs/fullbody.pdf',
     workOutRoutine: [
       {
         label: 'Treino Full Body',
@@ -39,6 +42,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
   {
     id: 'treinoAB',
     title: 'Treino AB Básico',
+    pdfFile: '/pdfs/treinoAB.pdf',
     workOutRoutine: [
       {
         label: 'Treino A',
@@ -67,6 +71,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
   {
     id: 'treinoABC',
     title: 'Treino ABC Clássico',
+    pdfFile: '/pdfs/treinoABC.pdf',
     workOutRoutine: [
       {
         label: 'Treino A',
@@ -76,7 +81,6 @@ export const fichasDeTreino: WorkOutPlan[] = [
           { name: 'Crucifixo', sets: '3', reps: '12' },
         ],
       },
-
       {
         label: 'Treino B',
         caption: 'Costas • Bíceps',
@@ -85,7 +89,6 @@ export const fichasDeTreino: WorkOutPlan[] = [
           { name: 'Rosca direta', sets: '3', reps: '10' },
         ],
       },
-
       {
         label: 'Treino C',
         caption: 'Pernas • Glúteos',
@@ -102,6 +105,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
   {
     id: 'upperLower',
     title: 'Upper / Lower Intermediário',
+    pdfFile: '/pdfs/upperLower.pdf',
     workOutRoutine: [
       {
         label: 'Upper',
@@ -131,6 +135,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
   {
     id: 'circuito',
     title: 'Treino em Circuito (Condicionamento)',
+    pdfFile: '/pdfs/circuito.pdf',
     workOutRoutine: [
       {
         label: 'Circuito Full Body',
@@ -149,6 +154,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
   {
     id: 'upperLowerMaquinas',
     title: 'Treino AB Upper / Lower (Máquinas)',
+    pdfFile: '/pdfs/upperLowerMaquinas.pdf',
     workOutRoutine: [
       {
         label: 'Upper A',
@@ -225,6 +231,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
   {
     id: 'femininoLowerFocus',
     title: 'Treino Feminino 5x (Foco em Inferiores)',
+    pdfFile: '/pdfs/femininoLowerFocus.pdf',
     workOutRoutine: [
       {
         label: 'Lower A',
@@ -293,6 +300,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
   {
     id: 'fullbody3x',
     title: 'Full Body 3x por semana',
+    pdfFile: '/pdfs/fullbody3x.pdf',
     workOutRoutine: [
       {
         label: 'Treino Full Body',
