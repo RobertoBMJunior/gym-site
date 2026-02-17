@@ -1,3 +1,4 @@
+//questions.ts
 export type QuestionType = 'options' | 'number'
 
 export interface Question {
@@ -36,7 +37,7 @@ export const questions: Question[] = [
     title: 'Quantos dias por semana você pretende treinar?',
     description: 'Define a divisão de treino mais eficiente.',
     type: 'options',
-    options: ['2x', '3x', '4x', '5x ou mais'],
+    options: ['2x por semana', '3x por semana', '4x por semana', '5x ou mais'],
   },
 
   {

@@ -1,3 +1,4 @@
+//fichasDeTreino.ts
 interface ExerciseList {
   name: string
   sets: string | number

@@ -1,3 +1,4 @@
+//selectWorkoutPlan.tsx
 import { fichasDeTreino } from './fichasDeTreino'
 
 interface Answers {
@@ -12,22 +13,22 @@ export function selectWorkoutPlan(answers: Answers) {
 
   // INICIANTE
   if (experience === 'Iniciante') {
-    if (frequency === '2x' || frequency === '3x') {
+    if (frequency === '2x por semana' || frequency === '3x por semana') {
       return fichasDeTreino.find((w) => w.id === 'fullbody3x')
     }
 
-    if (frequency === '4x') {
+    if (frequency === '4x por semana') {
       return fichasDeTreino.find((w) => w.id === 'treinoAB')
     }
   }
 
   // INTERMEDIÁRIO
   if (experience === 'Intermediário') {
-    if (frequency === '4x') {
+    if (frequency === '4x por semana') {
       return fichasDeTreino.find((w) => w.id === 'upperLower')
     }
 
-    if (frequency === '3x') {
+    if (frequency === '3x por semana') {
       return fichasDeTreino.find((w) => w.id === 'treinoABC')
     }
   }

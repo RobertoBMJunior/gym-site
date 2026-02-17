@@ -3,16 +3,17 @@
 
 import { useAnswers } from '../context/AnswersContext'
 import { WorkoutCard } from './components/WorkoutCard'
-import { fichasDeTreino } from './fichasDeTreino'
+import { selectWorkoutPlan } from './selectWorkoutPlan'
 
 export default function ResultPage() {
   const { answers } = useAnswers()
-  console.log(answers)
 
-  // selecionando um treino fixo por enquanto
-  const selectedWorkout = fichasDeTreino.find(
-    (workout) => workout.id === 'upperLowerMaquinas'
-  )
+  if (!answers) {
+    return <div>Carregando...</div>
+  }
+
+  // agora o treino é selecionado dinamicamente
+  const selectedWorkout = selectWorkoutPlan(answers)
 
   if (!selectedWorkout) {
     return <div>Treino não encontrado</div>
@@ -35,10 +36,9 @@ export default function ResultPage() {
         {/* Contextualização */}
         <div className="max-w-xl mx-auto mb-12 text-center">
           <ul className="space-y-3 text-slate-700 font-medium">
-            <li>🏋️ Divisão: Upper / Lower</li>
-            <li>📅 Frequência: 4 dias por semana</li>
-            <li>⏱️ Duração média: 50–60 minutos</li>
-            <li>🎯 Foco: Hipertrofia muscular</li>
+            <li>🏋️ Frequência: {answers.frequency}</li>
+            <li>🎯 Objetivo: {answers.goal}</li>
+            <li>📈 Nível: {answers.experience}</li>
           </ul>
         </div>
 
