@@ -315,4 +315,203 @@ export const fichasDeTreino: WorkOutPlan[] = [
       },
     ],
   },
+
+  {
+    id: 'forcaFundamental',
+    title: 'Protocolo Força Fundamental (4x/semana)',
+    pdfFile: '/pdfs/forcaFundamental.pdf',
+    workOutRoutine: [
+      {
+        label: 'Upper A',
+        caption: 'Segunda-feira',
+        exercises: [
+          { name: 'Supino Reto com Barra', sets: '3', reps: '6–8' },
+          { name: 'Remada Curvada com Barra', sets: '3', reps: '6–8' },
+          { name: 'Desenvolvimento com Halteres', sets: '3', reps: '8–10' },
+          { name: 'Puxada Frontal', sets: '3', reps: '8–10' },
+          { name: 'Rosca Direta com Barra', sets: '2', reps: '10–12' },
+          { name: 'Tríceps Testa', sets: '2', reps: '10–12' },
+        ],
+      },
+
+      {
+        label: 'Lower A',
+        caption: 'Terça-feira',
+        exercises: [
+          { name: 'Agachamento Livre', sets: '4', reps: '6–8' },
+          { name: 'Levantamento Terra Romeno', sets: '3', reps: '8–10' },
+          { name: 'Leg Press 45°', sets: '3', reps: '10–12' },
+          { name: 'Cadeira Flexora', sets: '3', reps: '10–12' },
+          { name: 'Panturrilha em Pé', sets: '3', reps: '12–15' },
+        ],
+      },
+
+      {
+        label: 'Upper B',
+        caption: 'Quinta-feira',
+        exercises: [
+          { name: 'Supino Inclinado com Halteres', sets: '3', reps: '8–10' },
+          { name: 'Remada Unilateral com Halter', sets: '3', reps: '8–10' },
+          { name: 'Elevação Lateral', sets: '3', reps: '10–12' },
+          { name: 'Puxada Triângulo', sets: '3', reps: '10–12' },
+          { name: 'Rosca Martelo', sets: '2', reps: '10–12' },
+          { name: 'Tríceps Polia', sets: '2', reps: '12–15' },
+        ],
+      },
+
+      {
+        label: 'Lower B',
+        caption: 'Sexta-feira',
+        exercises: [
+          { name: 'Levantamento Terra Convencional', sets: '3', reps: '5–7' },
+          { name: 'Agachamento Búlgaro', sets: '3', reps: '8–10' },
+          { name: 'Stiff', sets: '3', reps: '10–12' },
+          { name: 'Cadeira Extensora', sets: '3', reps: '12–15' },
+          { name: 'Panturrilha Sentado', sets: '3', reps: '15–20' },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'corpoDeImpacto',
+    title: 'Protocolo Corpo de Impacto (4x/semana)',
+    pdfFile: '/pdfs/corpoDeImpacto.pdf',
+    workOutRoutine: [
+      {
+        label: 'Upper',
+        caption: 'Segunda-feira',
+        exercises: [
+          { name: 'Supino Reto com Barra', sets: '3', reps: '6–8' },
+          { name: 'Remada Curvada', sets: '3', reps: '6–8' },
+          { name: 'Desenvolvimento Militar', sets: '3', reps: '8–10' },
+          { name: 'Puxada Frontal', sets: '3', reps: '8–10' },
+          { name: 'Crucifixo', sets: '2', reps: '12–15' },
+          { name: 'Rosca Direta', sets: '2', reps: '10–12' },
+        ],
+      },
+      {
+        label: 'Lower',
+        caption: 'Quarta-feira',
+        exercises: [
+          { name: 'Agachamento Livre', sets: '4', reps: '6–8' },
+          { name: 'Levantamento Terra Romeno', sets: '3', reps: '8–10' },
+          { name: 'Leg Press', sets: '3', reps: '10–12' },
+          { name: 'Cadeira Flexora', sets: '3', reps: '12–15' },
+          { name: 'Panturrilha', sets: '3', reps: '15–20' },
+        ],
+      },
+      {
+        label: 'Full Body',
+        caption: 'Sexta-feira',
+        exercises: [
+          { name: 'Agachamento Frontal', sets: '3', reps: '8–10' },
+          { name: 'Supino Inclinado', sets: '3', reps: '8–10' },
+          { name: 'Remada Unilateral', sets: '3', reps: '10–12' },
+          { name: 'Stiff', sets: '2', reps: '10–12' },
+          { name: 'Desenvolvimento Arnold', sets: '2', reps: '10–12' },
+          { name: 'Rosca Martelo', sets: '2', reps: '12–15' },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'potenciaAvancada',
+    title: 'Protocolo Potência Avançada (4x/semana)',
+    pdfFile: '/pdfs/potenciaAvancada.pdf',
+    workOutRoutine: [
+      {
+        label: 'Push',
+        caption: 'Segunda-feira',
+        exercises: [
+          { name: 'Supino Reto', sets: '4', reps: '6–8' },
+          { name: 'Desenvolvimento com Halteres', sets: '3', reps: '8–10' },
+          { name: 'Supino Inclinado', sets: '3', reps: '8–10' },
+          { name: 'Elevação Lateral', sets: '3', reps: '12–15' },
+          { name: 'Tríceps Francês', sets: '2', reps: '10–12' },
+          { name: 'Tríceps Polia', sets: '2', reps: '12–15' },
+        ],
+      },
+      {
+        label: 'Pull',
+        caption: 'Quarta-feira',
+        exercises: [
+          { name: 'Levantamento Terra', sets: '3', reps: '5–7' },
+          { name: 'Puxada Frontal', sets: '3', reps: '8–10' },
+          { name: 'Remada Curvada', sets: '3', reps: '8–10' },
+          { name: 'Puxada Triângulo', sets: '3', reps: '10–12' },
+          { name: 'Rosca Direta', sets: '2', reps: '10–12' },
+          { name: 'Rosca Martelo', sets: '2', reps: '12–15' },
+        ],
+      },
+      {
+        label: 'Legs',
+        caption: 'Quinta-feira',
+        exercises: [
+          { name: 'Agachamento Livre', sets: '4', reps: '6–8' },
+          { name: 'Leg Press 45°', sets: '3', reps: '10–12' },
+          { name: 'Stiff', sets: '3', reps: '10–12' },
+          { name: 'Cadeira Extensora', sets: '3', reps: '12–15' },
+          { name: 'Cadeira Flexora', sets: '3', reps: '12–15' },
+          { name: 'Panturrilha em Pé', sets: '3', reps: '15–20' },
+        ],
+      },
+      {
+        label: 'Full Body',
+        caption: 'Sexta-feira',
+        exercises: [
+          { name: 'Agachamento Frontal', sets: '3', reps: '8–10' },
+          { name: 'Supino Inclinado', sets: '3', reps: '8–10' },
+          { name: 'Remada Cavalinho', sets: '3', reps: '10–12' },
+          { name: 'Levantamento Terra Romeno', sets: '2', reps: '10–12' },
+          { name: 'Elevação Frontal', sets: '2', reps: '12–15' },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'fundacaoDeAco',
+    title: 'Protocolo Fundação de Aço (3x/semana)',
+    pdfFile: '/pdfs/fundacaoDeAco.pdf',
+    workOutRoutine: [
+      {
+        label: 'Full Body A',
+        caption: 'Segunda-feira',
+        exercises: [
+          { name: 'Agachamento Livre', sets: '3', reps: '6–8' },
+          { name: 'Supino Reto', sets: '3', reps: '6–8' },
+          { name: 'Remada Curvada', sets: '3', reps: '8–10' },
+          { name: 'Desenvolvimento', sets: '2', reps: '10–12' },
+          { name: 'Rosca Direta', sets: '2', reps: '10–12' },
+          { name: 'Tríceps Testa', sets: '2', reps: '10–12' },
+        ],
+      },
+      {
+        label: 'Full Body B',
+        caption: 'Quarta-feira',
+        exercises: [
+          { name: 'Levantamento Terra', sets: '3', reps: '5–7' },
+          { name: 'Supino Inclinado', sets: '3', reps: '8–10' },
+          { name: 'Puxada Frontal', sets: '3', reps: '8–10' },
+          { name: 'Leg Press', sets: '3', reps: '10–12' },
+          { name: 'Elevação Lateral', sets: '2', reps: '12–15' },
+          { name: 'Panturrilha', sets: '2', reps: '15–20' },
+        ],
+      },
+      {
+        label: 'Full Body C',
+        caption: 'Sexta-feira',
+        exercises: [
+          { name: 'Agachamento Frontal', sets: '3', reps: '8–10' },
+          { name: 'Remada Unilateral', sets: '3', reps: '8–10' },
+          { name: 'Supino com Halteres', sets: '3', reps: '10–12' },
+          { name: 'Stiff', sets: '2', reps: '10–12' },
+          { name: 'Rosca Martelo', sets: '2', reps: '12–15' },
+          { name: 'Tríceps Polia', sets: '2', reps: '12–15' },
+        ],
+      },
+    ],
+  },
 ]

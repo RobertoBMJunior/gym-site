@@ -50,7 +50,7 @@ export default function PerguntasProtocoloPage() {
 
   function saveAnswer(data: FormAnswers) {
     if (currentStep !== totalSteps - 1) return
-
+    console.log(data)
     setAnswers(data)
     router.push('/resultado')
   }
