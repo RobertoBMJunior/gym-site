@@ -132,24 +132,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
     ],
   },
 
-  {
-    id: 'circuito',
-    title: 'Treino em Circuito (Condicionamento)',
-    pdfFile: '/pdfs/circuito.pdf',
-    workOutRoutine: [
-      {
-        label: 'Circuito Full Body',
-        caption: 'Treino em Circuito (Condicionamento)',
-        exercises: [
-          { name: 'Agachamento com halteres', sets: '3', reps: '15' },
-          { name: 'Flexão de braço', sets: '3', reps: '12' },
-          { name: 'Remada com halteres', sets: '3', reps: '12' },
-          { name: 'Burpee', sets: '3', reps: '10' },
-          { name: 'Abdominal bicicleta', sets: '3', reps: '20' },
-        ],
-      },
-    ],
-  },
+  
 
   {
     id: 'upperLowerMaquinas',
