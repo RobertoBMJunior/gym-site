@@ -21,19 +21,23 @@ interface WorkOutPlan {
 
 export const fichasDeTreino: WorkOutPlan[] = [
   {
-    id: 'fullbody',
-    title: 'Full Body Iniciante',
-    pdfFile: '/pdfs/fullbody.pdf',
+    id: 'fullBodyAltaPerformance',
+    title: 'Full Body Completo 2.0',
+    pdfFile: '/pdfs/fullbody_performance.pdf',
     workOutRoutine: [
       {
         label: 'Treino Full Body',
-        caption: 'Treino para o corpo todo',
+        caption: 'Foco em Compostos e Equilíbrio Muscular',
         exercises: [
-          { name: 'Agachamento livre', sets: '3', reps: '10–12' },
-          { name: 'Supino reto', sets: '3', reps: '10–12' },
-          { name: 'Puxada na frente', sets: '3', reps: '10–12' },
-          { name: 'Elevação lateral', sets: '3', reps: '12–15' },
-          { name: 'Abdominal', sets: '3', reps: '15' },
+          { name: 'Agachamento Livre', sets: '3', reps: '8–10' },
+          { name: 'Supino Reto', sets: '3', reps: '8–10' },
+          { name: 'Remada Curvada ou Baixa', sets: '3', reps: '10–12' },
+          { name: 'Stiff (Posterior de Coxa)', sets: '3', reps: '10–12' },
+          { name: 'Desenvolvimento de Ombros', sets: '3', reps: '10' },
+          { name: 'Puxada Aberta (Lat Pulldown)', sets: '3', reps: '10–12' },
+          { name: 'Rosca Direta', sets: '3', reps: '10–12' },
+          { name: 'Tríceps Corda', sets: '3', reps: '10–12' },
+          { name: 'Prancha Abdominal', sets: '3', reps: '45-60 seg' },
         ],
       },
     ],
@@ -49,8 +53,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
         caption: 'Superior',
         exercises: [
           { name: 'Supino reto', sets: '3', reps: '8–12' },
-          { name: 'Remada curvada', sets: '3', reps: '8–12' },
-          { name: 'Desenvolvimento', sets: '3', reps: '10' },
+          { name: 'Remada baixa', sets: '4', reps: '8–10' },
+          { name: 'Elevação lateral', sets: '3', reps: '12' },
           { name: 'Rosca direta', sets: '3', reps: '10–12' },
           { name: 'Tríceps corda', sets: '3', reps: '10–12' },
         ],
@@ -58,69 +62,6 @@ export const fichasDeTreino: WorkOutPlan[] = [
       {
         label: 'Treino B',
         caption: 'Inferior',
-        exercises: [
-          { name: 'Agachamento', sets: '3', reps: '8–12' },
-          { name: 'Leg press', sets: '3', reps: '10–12' },
-          { name: 'Mesa flexora', sets: '3', reps: '10–12' },
-          { name: 'Panturrilha', sets: '3', reps: '12–15' },
-        ],
-      },
-    ],
-  },
-
-  {
-    id: 'treinoABC',
-    title: 'Treino ABC Clássico',
-    pdfFile: '/pdfs/treinoABC.pdf',
-    workOutRoutine: [
-      {
-        label: 'Treino A',
-        caption: 'Peito • Ombro • Tríceps',
-        exercises: [
-          { name: 'Supino reto', sets: '3', reps: '8–12' },
-          { name: 'Crucifixo', sets: '3', reps: '12' },
-        ],
-      },
-      {
-        label: 'Treino B',
-        caption: 'Costas • Bíceps',
-        exercises: [
-          { name: 'Puxada na frente', sets: '3', reps: '10' },
-          { name: 'Rosca direta', sets: '3', reps: '10' },
-        ],
-      },
-      {
-        label: 'Treino C',
-        caption: 'Pernas • Glúteos',
-        exercises: [
-          { name: 'Agachamento', sets: '3', reps: '8–12' },
-          { name: 'Leg press', sets: '3', reps: '10–12' },
-          { name: 'Mesa flexora', sets: '3', reps: '10–12' },
-          { name: 'Panturrilha', sets: '3', reps: '12–15' },
-        ],
-      },
-    ],
-  },
-
-  {
-    id: 'upperLower',
-    title: 'Upper / Lower Intermediário',
-    pdfFile: '/pdfs/upperLower.pdf',
-    workOutRoutine: [
-      {
-        label: 'Upper',
-        caption: 'Parte superior',
-        exercises: [
-          { name: 'Supino inclinado', sets: '4', reps: '8–10' },
-          { name: 'Remada baixa', sets: '4', reps: '8–10' },
-          { name: 'Elevação lateral', sets: '3', reps: '12' },
-          { name: 'Rosca direta', sets: '3', reps: '10' },
-          { name: 'Tríceps corda', sets: '3', reps: '10' },
-        ],
-      },
-      {
-        label: 'Lower',
-        caption: 'Parte inferior',
         exercises: [
           { name: 'Agachamento livre', sets: '4', reps: '8–10' },
           { name: 'Leg press', sets: '3', reps: '10' },
@@ -132,7 +73,52 @@ export const fichasDeTreino: WorkOutPlan[] = [
     ],
   },
 
-  
+  {
+    id: 'treinoABCHipertrofiaPro',
+    title: 'Treino ABC Hipertrofia Avançado',
+    pdfFile: '/pdfs/treinoABCHipertrofia.pdf',
+    workOutRoutine: [
+      {
+        label: 'Treino A',
+        caption: 'Peito • Ombro • Tríceps',
+        exercises: [
+          { name: 'Supino Reto (Barra ou Halter)', sets: '4', reps: '8–10' },
+          { name: 'Supino Inclinado com Halteres', sets: '3', reps: '10–12' },
+          { name: 'Crossover (Polia Média/Baixa)', sets: '3', reps: '12' },
+          { name: 'Desenvolvimento com Halteres', sets: '3', reps: '10' },
+          { name: 'Elevação Lateral', sets: '4', reps: '12–15' },
+          { name: 'Tríceps Pulley (Corda)', sets: '3', reps: '12' },
+          { name: 'Tríceps Testa', sets: '3', reps: '10' },
+        ],
+      },
+      {
+        label: 'Treino B',
+        caption: 'Costas • Bíceps • Trapézio',
+        exercises: [
+          { name: 'Puxada Alta (Lat Pulldown)', sets: '4', reps: '10–12' },
+          { name: 'Remada Curvada ou Cavalinho', sets: '3', reps: '8–10' },
+          { name: 'Remada Baixa Sentada', sets: '3', reps: '12' },
+          { name: 'Face Pull (Posterior de Ombro)', sets: '3', reps: '15' },
+          { name: 'Encolhimento com Halteres', sets: '3', reps: '12–15' },
+          { name: 'Rosca Direta (Barra W)', sets: '3', reps: '10' },
+          { name: 'Rosca Martelo', sets: '3', reps: '12' },
+        ],
+      },
+      {
+        label: 'Treino C',
+        caption: 'Pernas • Glúteos • Panturrilha',
+        exercises: [
+          { name: 'Agachamento Livre', sets: '4', reps: '8–10' },
+          { name: 'Leg Press 45°', sets: '3', reps: '12' },
+          { name: 'Cadeira Extensora', sets: '3', reps: '12–15' },
+          { name: 'Stiff ou Mesa Flexora', sets: '4', reps: '10–12' },
+          { name: 'Afundo ou Passada', sets: '3', reps: '10 (cada perna)' },
+          { name: 'Panturrilha em Pé', sets: '4', reps: '15–20' },
+          { name: 'Panturrilha Sentado', sets: '3', reps: '15' },
+        ],
+      },
+    ],
+  },
 
   {
     id: 'upperLowerMaquinas',
@@ -281,25 +267,6 @@ export const fichasDeTreino: WorkOutPlan[] = [
   },
 
   {
-    id: 'fullbody3x',
-    title: 'Full Body 3x por semana',
-    pdfFile: '/pdfs/fullbody3x.pdf',
-    workOutRoutine: [
-      {
-        label: 'Treino Full Body',
-        caption: 'Treino para dias alternados',
-        exercises: [
-          { name: 'Agachamento', sets: '3', reps: '10–12' },
-          { name: 'Supino reto', sets: '3', reps: '10–12' },
-          { name: 'Puxada na frente', sets: '3', reps: '10–12' },
-          { name: 'Elevação lateral', sets: '3', reps: '12–15' },
-          { name: 'Abdominal', sets: '3', reps: '15' },
-        ],
-      },
-    ],
-  },
-
-  {
     id: 'forcaFundamental',
     title: 'Protocolo Força Fundamental (4x/semana)',
     pdfFile: '/pdfs/forcaFundamental.pdf',
@@ -358,7 +325,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
 
   {
     id: 'corpoDeImpacto',
-    title: 'Protocolo Corpo de Impacto (4x/semana)',
+    title: 'Protocolo Corpo de Impacto (3x/semana)',
     pdfFile: '/pdfs/corpoDeImpacto.pdf',
     workOutRoutine: [
       {
