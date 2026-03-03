@@ -6,41 +6,98 @@ interface Answers {
   experience?: string
   frequency?: string
   focus?: string
+  gender?: string
+  age?: number | string
 }
 
 export function selectWorkoutPlan(answers: Answers) {
-  const { experience, frequency, focus, goal } = answers
+  const { experience, frequency, focus, goal, gender } = answers
 
-  // INICIANTE
-  if (experience === 'Iniciante') {
-    if (frequency === '2x por semana' || frequency === '3x por semana') {
-      return fichasDeTreino.find((w) => w.id === 'fullbody3x')
+  //2x por semana
+  if (frequency === '2x por semana') {
+    if (experience === 'Iniciante') {
+      return fichasDeTreino.find((treino) => treino.id === 'forcaFundamental')
     }
 
-    if (frequency === '4x por semana') {
-      return fichasDeTreino.find((w) => w.id === 'treinoAB')
+    if (experience === 'Intermediário') {
+      return fichasDeTreino.find((treino) => treino.id === 'potenciaAvancada')
+    }
+
+    if (experience === 'Avançado') {
+      if (gender === 'Homem') {
+        return fichasDeTreino.find((treino) => treino.id === 'potenciaAvancada')
+      }
+
+      if (gender === 'Mulher') {
+        return fichasDeTreino.find((treino) => treino.id === 'potenciaAvancada')
+      }
     }
   }
 
-  // INTERMEDIÁRIO
-  if (experience === 'Intermediário') {
-    if (frequency === '4x por semana') {
-      return fichasDeTreino.find((w) => w.id === 'upperLower')
+  //3x por semana
+  if (frequency === '3x por semana') {
+    if (experience === 'Iniciante') {
+      return fichasDeTreino.find((treino) => treino.id === 'fundacaoDeAco')
     }
 
-    if (frequency === '3x por semana') {
-      return fichasDeTreino.find((w) => w.id === 'treinoABC')
+    if (experience === 'Intermediário') {
+      return fichasDeTreino.find((treino) => treino.id === 'corpoDeImpacto')
+    }
+
+    if (experience === 'Avançado') {
+      if (gender === 'Homem') {
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'fullBodyAvancadoMasculino'
+        )
+      }
+
+      if (gender === 'Mulher') {
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'fullBodyFemininoAvancado'
+        )
+      }
     }
   }
 
-  // FOCO EM PERNAS / FEMININO
-  if (focus === 'Pernas e glúteos' && frequency === '5x ou mais') {
-    return fichasDeTreino.find((w) => w.id === 'femininoLowerFocus')
+  //4x por semana
+  if (frequency === '4x por semana') {
+    if (experience === 'Iniciante') {
+      return fichasDeTreino.find((treino) => treino.id === 'forcaFundamental')
+    }
+
+    if (experience === 'Intermediário') {
+      return fichasDeTreino.find((treino) => treino.id === 'upperLowerMaquinas')
+    }
+
+    if (experience === 'Avançado') {
+      return fichasDeTreino.find((treino) => treino.id === 'potenciaAvancada')
+    }
   }
 
-  // CONDICIONAMENTO
-  if (goal === 'Condicionamento físico') {
-    return fichasDeTreino.find((w) => w.id === 'circuito')
+  //5x por semana
+  if (frequency === '5x por semana') {
+    if (gender === 'Mulher') {
+      return fichasDeTreino.find((treino) => treino.id === 'femininoLowerFocus')
+    }
+
+    if (gender === 'Homem') {
+      return fichasDeTreino.find(
+        (treino) => treino.id === 'conquistaContinua5x'
+      )
+    }
+  }
+
+  //6x por semana
+  if (frequency === '6x por semana') {
+    if (gender === 'Homem') {
+      return fichasDeTreino.find((treino) => treino.id === 'treinoABC')
+    }
+
+    if (gender === 'Mulher') {
+      return fichasDeTreino.find(
+        (treino) => treino.id === 'treinoABC-evolucaoFeminina'
+      )
+    }
   }
 
   // fallback

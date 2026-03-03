@@ -37,7 +37,13 @@ export const questions: Question[] = [
     title: 'Quantos dias por semana você pretende treinar?',
     description: 'Define a divisão de treino mais eficiente.',
     type: 'options',
-    options: ['2x por semana', '3x por semana', '4x por semana', '5x ou mais'],
+    options: [
+      '2x por semana',
+      '3x por semana',
+      '4x por semana',
+      '5x por semana',
+      '6x por semana',
+    ],
   },
 
   {
@@ -46,6 +52,14 @@ export const questions: Question[] = [
     description: 'Ajuda a ajustar a ênfase dos exercícios.',
     type: 'options',
     options: ['Treino equilibrado', 'Parte superior', 'Pernas e glúteos'],
+  },
+
+  {
+    id: 'gender',
+    title: 'Qual seu gênero?',
+    description: 'Ajuda a ajustar a ênfase dos exercícios.',
+    type: 'options',
+    options: ['Homem', 'Mulher'],
   },
 
   {

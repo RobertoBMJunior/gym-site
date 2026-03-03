@@ -74,9 +74,9 @@ export const fichasDeTreino: WorkOutPlan[] = [
   },
 
   {
-    id: 'treinoABCHipertrofiaPro',
-    title: 'Treino ABC Hipertrofia Avançado',
-    pdfFile: '/pdfs/treinoABCHipertrofia.pdf',
+    id: 'treinoABC',
+    title: 'Treino ABC',
+    pdfFile: '/pdfs/treinoABC.pdf',
     workOutRoutine: [
       {
         label: 'Treino A',
@@ -115,6 +115,54 @@ export const fichasDeTreino: WorkOutPlan[] = [
           { name: 'Afundo ou Passada', sets: '3', reps: '10 (cada perna)' },
           { name: 'Panturrilha em Pé', sets: '4', reps: '15–20' },
           { name: 'Panturrilha Sentado', sets: '3', reps: '15' },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'treinoABC-evolucaoFeminina',
+    title: 'Protocolo Evolução Feminina (6x/semana)',
+    pdfFile: '/pdfs/evolucaoFeminina6x.pdf',
+    workOutRoutine: [
+      {
+        label: 'Treino A: Membros Inferiores (Geral)',
+        caption: 'Segunda e Quinta',
+        exercises: [
+          { name: 'Agachamento Livre ou no Smith', sets: '3', reps: '10–12' },
+          { name: 'Leg Press 45', sets: '3', reps: '10–12' },
+          {
+            name: 'Elevação Pélvica (Máquina ou Barra)',
+            sets: '3',
+            reps: '12–15',
+          },
+          { name: 'Cadeira Extensora', sets: '3', reps: '12–15' },
+          { name: 'Cadeira Flexora', sets: '3', reps: '12–15' },
+          { name: 'Panturrilha em Pé', sets: '4', reps: '15–20' },
+        ],
+      },
+      {
+        label: 'Treino B: Superiores (Costas, Bíceps e Ombro)',
+        caption: 'Terça e Sexta',
+        exercises: [
+          { name: 'Puxada Aberta no Pulley', sets: '3', reps: '10–12' },
+          { name: 'Remada Baixa Triângulo', sets: '3', reps: '10–12' },
+          { name: 'Desenvolvimento com Halteres', sets: '3', reps: '12–15' },
+          { name: 'Elevação Lateral Halteres', sets: '3', reps: '12–15' },
+          { name: 'Rosca Direta Polia', sets: '3', reps: '12–15' },
+          { name: 'Abdominal Supra (Solo)', sets: '3', reps: '15–20' },
+        ],
+      },
+      {
+        label: 'Treino C: Inferior (Foco Posterior/Glúteo) e Tríceps',
+        caption: 'Quarta e Sábado',
+        exercises: [
+          { name: 'Stiff com Halteres', sets: '3', reps: '10–12' },
+          { name: 'Afundo (Passada)', sets: '3', reps: '10–12' },
+          { name: 'Cadeira Abdutora', sets: '3', reps: '15–20' },
+          { name: 'Glúteo na Polia (Extensão)', sets: '3', reps: '12–15' },
+          { name: 'Tríceps Polia (Corda)', sets: '3', reps: '12–15' },
+          { name: 'Prancha Isométrica', sets: '3', reps: '45s' },
         ],
       },
     ],
@@ -261,6 +309,180 @@ export const fichasDeTreino: WorkOutPlan[] = [
           { name: 'Leg press pés altos', sets: '3', reps: '10–12' },
           { name: 'Cadeira abdutora', sets: '3', reps: '15' },
           { name: 'Panturrilha', sets: '3', reps: '12–15' },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'conquistaContinua5x',
+    title: 'Protocolo Performance 5-Dias (Seg-Sex)',
+    pdfFile: '/pdfs/conquistaContinua5x.pdf',
+    workOutRoutine: [
+      {
+        label: 'Upper (Superior Completo)',
+        caption: 'Segunda-feira',
+        exercises: [
+          { name: 'Supino Reto Barra', sets: '3', reps: '6–8' },
+          { name: 'Remada Curvada', sets: '3', reps: '8–10' },
+          { name: 'Desenvolvimento Halteres', sets: '3', reps: '10–12' },
+          { name: 'Puxada Alta', sets: '3', reps: '10–12' },
+          { name: 'Rosca Direta Polia', sets: '3', reps: '12–15' },
+          { name: 'Tríceps Corda', sets: '3', reps: '12–15' },
+        ],
+      },
+      {
+        label: 'Lower (Inferior Completo)',
+        caption: 'Terça-feira',
+        exercises: [
+          { name: 'Agachamento Livre', sets: '3', reps: '6–8' },
+          { name: 'Stiff', sets: '3', reps: '10–12' },
+          { name: 'Leg Press 45', sets: '3', reps: '12–15' },
+          { name: 'Cadeira Flexora', sets: '3', reps: '12–15' },
+          { name: 'Panturrilha em Pé', sets: '4', reps: '12–15' },
+        ],
+      },
+      {
+        label: 'Push (Peito/Ombro/Tríceps)',
+        caption: 'Quarta-feira',
+        exercises: [
+          { name: 'Supino Inclinado Halteres', sets: '3', reps: '10–12' },
+          { name: 'Crucifixo Máquina (Pec Deck)', sets: '3', reps: '12–15' },
+          { name: 'Crossover Polia Alta', sets: '3', reps: '12–15' },
+          { name: 'Elevação Lateral Halteres', sets: '4', reps: '12–15' },
+          { name: 'Tríceps Testa Barra W', sets: '3', reps: '10–12' },
+        ],
+      },
+      {
+        label: 'Pull (Costas/Bíceps/Posterior)',
+        caption: 'Quinta-feira',
+        exercises: [
+          { name: 'Barra Fixa ou Graviton', sets: '3', reps: '8–10' },
+          { name: 'Remada Unilateral (Serrote)', sets: '3', reps: '10–12' },
+          { name: 'Face Pull (Corda)', sets: '3', reps: '15–20' },
+          { name: 'Rosca Martelo Halteres', sets: '3', reps: '10–12' },
+          { name: 'Rosca Inversa Barra', sets: '2', reps: '12–15' },
+          { name: 'Encolhimento Halteres', sets: '3', reps: '12–15' },
+        ],
+      },
+      {
+        label: 'Legs (Membros Inferiores)',
+        caption: 'Sexta-feira',
+        exercises: [
+          { name: 'Agachamento Hack ou Sumô', sets: '3', reps: '10–12' },
+          { name: 'Afundo (Passada)', sets: '3', reps: '10–12' },
+          { name: 'Cadeira Extensora', sets: '3', reps: '12–15' },
+          { name: 'Panturrilha Sentado', sets: '4', reps: '15–20' },
+          { name: 'Abdominal Supra Máquina', sets: '3', reps: '15–20' },
+          { name: 'Elevação de Pernas (Infra)', sets: '3', reps: '15–20' },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'fullBodyAvancadoMasculino',
+    title: 'Protocolo Full Body Advanced V2 (3x/semana)',
+    pdfFile: '/pdfs/fullBodyAvancado.pdf',
+    workOutRoutine: [
+      {
+        label: 'Dia 1: Foco Tensional (Força)',
+        caption: 'Segunda-feira',
+        exercises: [
+          { name: 'Agachamento Livre Barra', sets: '4', reps: '4–6' },
+          { name: 'Supino Reto Barra', sets: '4', reps: '4–6' },
+          { name: 'Levantamento Terra Convencional', sets: '3', reps: '5' },
+          { name: 'Desenvolvimento Militar (OHP)', sets: '3', reps: '6–8' },
+          {
+            name: 'Puxada Articulada (Pegada Supinada)',
+            sets: '3',
+            reps: '6–8',
+          },
+          { name: 'Supino com Pegada Fechada', sets: '3', reps: '6–8' },
+        ],
+      },
+      {
+        label: 'Dia 2: Foco Metabólico (Volume)',
+        caption: 'Quarta-feira',
+        exercises: [
+          {
+            name: 'Leg Press 45 (Drop-set na última)',
+            sets: '3',
+            reps: '12–15',
+          },
+          { name: 'Supino Inclinado Halteres', sets: '3', reps: '10–12' },
+          { name: 'Remada Curvada Pronada', sets: '3', reps: '10–12' },
+          { name: 'Elevação Lateral Cabo', sets: '4', reps: '15–20' },
+          { name: 'Cadeira Flexora', sets: '3', reps: '12–15' },
+          { name: 'Rosca Scott Máquina', sets: '3', reps: '12–15' },
+          { name: 'Tríceps Polia Barra Reta', sets: '3', reps: '12–15' },
+        ],
+      },
+      {
+        label: 'Dia 3: Híbrido (Power-Building)',
+        caption: 'Sexta-feira',
+        exercises: [
+          { name: 'Agachamento Búlgaro', sets: '3', reps: '8–10' },
+          { name: 'Supino Reto Halteres', sets: '3', reps: '8–10' },
+          { name: 'Remada Unilateral (Serrote)', sets: '3', reps: '8–10' },
+          { name: 'Stiff Barra', sets: '3', reps: '8–10' },
+          { name: 'Crucifixo Inclinado Cabo', sets: '3', reps: '12–15' },
+          { name: 'Face Pull', sets: '3', reps: '15–20' },
+          { name: 'Panturrilha em Pé (Pausa 2s)', sets: '4', reps: '10–12' },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'fullBodyFemininoAvancado',
+    title: 'Protocolo Curvas de Aço (Feminino 3x)',
+    pdfFile: '/pdfs/curvasDeAco.pdf',
+    workOutRoutine: [
+      {
+        label: 'Dia 1: Força e Base (Foco Glúteo Máximo)',
+        caption: 'Segunda-feira',
+        exercises: [
+          { name: 'Agachamento Livre Barra', sets: '4', reps: '6–8' },
+          { name: 'Elevação Pélvica com Barra', sets: '4', reps: '8–10' },
+          { name: 'Supino Reto Halteres', sets: '3', reps: '10–12' },
+          { name: 'Puxada Aberta no Pulley', sets: '3', reps: '10–12' },
+          { name: 'Stiff com Barra ou Halteres', sets: '3', reps: '10–12' },
+          { name: 'Prancha Abdominal com Peso', sets: '3', reps: '45-60s' },
+        ],
+      },
+      {
+        label: 'Dia 2: Volume e Detalhes (Foco Quadríceps/Ombro)',
+        caption: 'Quarta-feira',
+        exercises: [
+          { name: 'Leg Press 45 (Pés Baixos)', sets: '3', reps: '12–15' },
+          { name: 'Afundo ou Passada Alternada', sets: '3', reps: '10–12' },
+          { name: 'Desenvolvimento com Halteres', sets: '3', reps: '10–12' },
+          { name: 'Elevação Lateral na Polia', sets: '4', reps: '15–20' },
+          {
+            name: 'Cadeira Extensora (Pico de contração 2s)',
+            sets: '3',
+            reps: '12–15',
+          },
+          { name: 'Remada Baixa com Triângulo', sets: '3', reps: '12–15' },
+          { name: 'Tríceps Polia (Corda)', sets: '3', reps: '12–15' },
+        ],
+      },
+      {
+        label: 'Dia 3: Cadeia Posterior e Metabólico',
+        caption: 'Sexta-feira',
+        exercises: [
+          { name: 'Levantamento Terra Sumô', sets: '4', reps: '6–8' },
+          { name: 'Agachamento Búlgaro', sets: '3', reps: '10–12' },
+          { name: 'Cadeira Flexora', sets: '3', reps: '12–15' },
+          {
+            name: 'Cadeira Abdutora (Tronco inclinado)',
+            sets: '4',
+            reps: '15–20',
+          },
+          { name: 'Remada Unilateral com Halter', sets: '3', reps: '10–12' },
+          { name: 'Rosca Direta com Halteres', sets: '2', reps: '12–15' },
+          { name: 'Panturrilha em Pé', sets: '4', reps: '15–20' },
         ],
       },
     ],
