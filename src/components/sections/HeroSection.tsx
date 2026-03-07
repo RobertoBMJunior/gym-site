@@ -3,20 +3,20 @@ import Link from 'next/link'
 
 export function HeroSection() {
   return (
-    <section className="w-full flex flex-col items-center gap-4 py-4 px-50 mb-4">
-      <h1 className="text-5xl text-center font-bold max-w-200">
+    <section className="w-full flex flex-col items-center gap-4 py-4 px-10 mb-4">
+      <h1 className="text-5xl text-center font-bold max-w-220">
         Treino personalizado para o seu corpo, nível e objetivo
       </h1>
-      <p className="text-[20px] text-center font-bold text-[#A79696] w-[590px]">
+      <p className="text-[20px] text-center font-bold text-[#A79696]">
         Receba um protocolo de treino adaptado para a sua realidade (academia ou
         calistenia)
       </p>
       <div className="flex gap-10">
-        <Image src="/imageTraining1.svg" alt="" width={140} height={200} />
-        <Image src="/imageTraining2.svg" alt="" width={200} height={200} />
-        <Image src="/imageTraining3.svg" alt="" width={130} height={200} />
+        <Image src="/imageTraining1.svg" alt="" width={187} height={200} />
+        <Image src="/imageTraining2.svg" alt="" width={267} height={200} />
+        <Image src="/imageTraining3.svg" alt="" width={174} height={200} />
       </div>
-      <p className="text-center text-sm font-semibold max-w-[360px]">
+      <p className="text-center text-sm font-semibold mt-3">
         *Não é necessário cadastro, visualize e baixe a sua ficha de treino
         gratuitamente.
       </p>
@@ -28,7 +28,7 @@ export function HeroSection() {
         <button
           className="
           bg-[#DC2626]
-          px-10 py-5
+          px-10 py-5 
           rounded-full
           text-white
           font-semibold
