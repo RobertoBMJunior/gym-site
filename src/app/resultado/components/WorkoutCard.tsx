@@ -4,6 +4,7 @@ interface Exercise {
   name: string
   sets: string | number
   reps: string | number
+  rest: string | number
 }
 
 interface WorkoutCardProps {
@@ -20,16 +21,27 @@ export function WorkoutCard({ label, caption, exercises }: WorkoutCardProps) {
         <p className="text-sm text-slate-500">{caption}</p>
       </div>
 
-      <ul className="space-y-3">
+      <ul className="space-y-4">
         {exercises.map((exercise, index) => (
           <li
             key={index}
-            className="flex justify-between items-center border-b border-slate-300 pb-2 last:border-none"
+            className="border-b border-slate-300 pb-3 last:border-none"
           >
-            <span className="font-medium text-slate-700">{exercise.name}</span>
-            <span className="text-sm text-slate-500">
-              {exercise.sets} x {exercise.reps}
-            </span>
+            {/* Nome do exercício */}
+            <p className="font-semibold text-slate-700 mb-1">
+              {index + 1}. {exercise.name}
+            </p>
+
+            {/* Sets / Reps e Descanso */}
+            <div className="flex justify-between text-sm text-slate-500">
+              <span>
+                {exercise.sets} x {exercise.reps}
+              </span>
+
+              {exercise.rest && (
+                <span className="text-slate-400">descanso {exercise.rest}</span>
+              )}
+            </div>
           </li>
         ))}
       </ul>
