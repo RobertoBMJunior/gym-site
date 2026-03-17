@@ -16,20 +16,28 @@ export function selectWorkoutPlan(answers: Answers) {
   //2x por semana
   if (frequency === '2x por semana') {
     if (experience === 'Iniciante') {
-      return fichasDeTreino.find((treino) => treino.id === 'forcaFundamental')
+      return fichasDeTreino.find(
+        (treino) => treino.id === 'fullBodyAltaPerformance'
+      )
     }
 
     if (experience === 'Intermediário') {
-      return fichasDeTreino.find((treino) => treino.id === 'potenciaAvancada')
+      return fichasDeTreino.find(
+        (treino) => treino.id === 'fullBodyAltaPerformance'
+      )
     }
 
     if (experience === 'Avançado') {
       if (gender === 'Homem') {
-        return fichasDeTreino.find((treino) => treino.id === 'potenciaAvancada')
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'fullBodyAltaPerformance'
+        )
       }
 
       if (gender === 'Mulher') {
-        return fichasDeTreino.find((treino) => treino.id === 'potenciaAvancada')
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'fullBodyAltaPerformance'
+        )
       }
     }
   }
