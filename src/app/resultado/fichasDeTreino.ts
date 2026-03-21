@@ -23,12 +23,12 @@ interface WorkOutPlan {
 export const fichasDeTreino: WorkOutPlan[] = [
   {
     id: 'fullBodyAltaPerformance',
-    title: 'Full Body Completo 2.0',
-    pdfFile: '/pdfs/fullbody_performance.pdf',
+    title: 'Protocolo Full Body Completo',
+    pdfFile: '/pdfs/fullBodyAltaPerformance.pdf',
     workOutRoutine: [
       {
-        label: 'Treino Full Body',
-        caption: 'Foco em Compostos e Equilíbrio Muscular',
+        label: 'Treino I - Full Body',
+        caption: 'Foco em Compostos e Força de Base',
         exercises: [
           { name: 'Agachamento Livre', sets: '3', reps: '8–10', rest: '2 min' },
           { name: 'Supino Reto', sets: '3', reps: '8–10', rest: '2 min' },
@@ -62,6 +62,51 @@ export const fichasDeTreino: WorkOutPlan[] = [
             name: 'Prancha Abdominal',
             sets: '3',
             reps: '45-60 seg',
+            rest: '1 min',
+          },
+        ],
+      },
+      {
+        label: 'Treino II - Full Body',
+        caption: 'Foco em Variedade de Estímulo e Simetria',
+        exercises: [
+          { name: 'Leg Press 45º', sets: '3', reps: '10–12', rest: '2 min' },
+          {
+            name: 'Supino Inclinado (Halteres)',
+            sets: '3',
+            reps: '8–10',
+            rest: '2 min',
+          },
+          {
+            name: 'Remada Cavalinho ou Unilateral',
+            sets: '3',
+            reps: '10–12',
+            rest: '2 min',
+          },
+          { name: 'Cadeira Flexora', sets: '3', reps: '12–15', rest: '2 min' },
+          {
+            name: 'Elevação Lateral',
+            sets: '3',
+            reps: '12–15',
+            rest: '1.5 min',
+          },
+          {
+            name: 'Puxada com Triângulo',
+            sets: '3',
+            reps: '10–12',
+            rest: '2 min',
+          },
+          { name: 'Rosca Martelo', sets: '3', reps: '10–12', rest: '1 min' },
+          {
+            name: 'Tríceps Testa ou Francês',
+            sets: '3',
+            reps: '10–12',
+            rest: '1 min',
+          },
+          {
+            name: 'Abdominal Supra (Solo ou Máquina)',
+            sets: '3',
+            reps: '15–20',
             rest: '1 min',
           },
         ],
@@ -1040,7 +1085,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
 
   {
     id: 'forcaFundamental',
-    title: 'Protocolo Força Fundamental (4x/semana)',
+    title: 'Protocolo Base Inquebrável',
     pdfFile: '/pdfs/forcaFundamental.pdf',
     workOutRoutine: [
       {
@@ -1157,7 +1202,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
 
   {
     id: 'corpoDeImpacto',
-    title: 'Protocolo Corpo de Impacto (3x/semana)',
+    title: 'Protocolo Arquitetura de Força (3x/semana)',
     pdfFile: '/pdfs/corpoDeImpacto.pdf',
     workOutRoutine: [
       {
@@ -1230,7 +1275,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
 
   {
     id: 'potenciaAvancada',
-    title: 'Protocolo Potência Avançada (4x/semana)',
+    title: 'Protocolo Pilar de Titânio',
     pdfFile: '/pdfs/potenciaAvancada.pdf',
     workOutRoutine: [
       {
@@ -1310,7 +1355,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
 
   {
     id: 'fundacaoDeAco',
-    title: 'Protocolo Fundação de Aço (3x/semana)',
+    title: 'Protocolo Fundação Sólida',
     pdfFile: '/pdfs/fundacaoDeAco.pdf',
     workOutRoutine: [
       {
