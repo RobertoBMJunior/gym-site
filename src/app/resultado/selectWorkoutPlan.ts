@@ -103,7 +103,7 @@ export function selectWorkoutPlan(answers: Answers) {
 
     if (gender === 'Mulher') {
       return fichasDeTreino.find(
-        (treino) => treino.id === 'treinoABC-evolucaoFeminina'
+        (treino) => treino.id === 'treinoABCEvolucaoFeminina'
       )
     }
   }

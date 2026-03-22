@@ -272,9 +272,9 @@ export const fichasDeTreino: WorkOutPlan[] = [
   },
 
   {
-    id: 'treinoABC-evolucaoFeminina',
+    id: 'treinoABCEvolucaoFeminina',
     title: 'Protocolo Evolução Feminina (6x/semana)',
-    pdfFile: '/pdfs/evolucaoFeminina6x.pdf',
+    pdfFile: '/pdfs/treinoABCEvolucaoFeminina.pdf',
     workOutRoutine: [
       {
         label: 'Treino A: Membros Inferiores (Geral)',
@@ -657,7 +657,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
 
   {
     id: 'conquistaContinua5x',
-    title: 'Protocolo Performance 5-Dias (Seg-Sex)',
+    title: 'Protocolo Performance 5 Dias (Seg-Sex)',
     pdfFile: '/pdfs/conquistaContinua5x.pdf',
     workOutRoutine: [
       {
@@ -709,7 +709,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
             rest: '2 min',
           },
           {
-            name: 'Crucifixo Máquina (Pec Deck)',
+            name: 'Crucifixo Máquina (Peck Deck)',
             sets: '3',
             reps: '12–15',
             rest: '1 min',
@@ -818,8 +818,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
 
   {
     id: 'fullBodyAvancadoMasculino',
-    title: 'Protocolo Full Body Advanced V2 (3x/semana)',
-    pdfFile: '/pdfs/fullBodyAvancado.pdf',
+    title: 'Protocolo Full Body Avançado',
+    pdfFile: '/pdfs/fullBodyAvancadoMasculino.pdf',
     workOutRoutine: [
       {
         label: 'Dia 1: Foco Tensional (Força)',
@@ -944,8 +944,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
 
   {
     id: 'fullBodyFemininoAvancado',
-    title: 'Protocolo Curvas de Aço (Feminino 3x)',
-    pdfFile: '/pdfs/curvasDeAco.pdf',
+    title: 'Protocolo Curvas de Aço',
+    pdfFile: '/pdfs/fullBodyFemininoAvancado.pdf',
     workOutRoutine: [
       {
         label: 'Dia 1: Força e Base (Foco Glúteo Máximo)',
@@ -1202,7 +1202,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
 
   {
     id: 'corpoDeImpacto',
-    title: 'Protocolo Arquitetura de Força (3x/semana)',
+    title: 'Protocolo Arquitetura de Força',
     pdfFile: '/pdfs/corpoDeImpacto.pdf',
     workOutRoutine: [
       {
@@ -1223,8 +1223,8 @@ export const fichasDeTreino: WorkOutPlan[] = [
             rest: '2 min',
           },
           { name: 'Puxada Frontal', sets: '3', reps: '8–10', rest: '2 min' },
-          { name: 'Crucifixo', sets: '2', reps: '12–15', rest: '1 min' },
-          { name: 'Rosca Direta', sets: '2', reps: '10–12', rest: '1 min' },
+          { name: 'Crucifixo', sets: '3', reps: '12–15', rest: '1 min' },
+          { name: 'Rosca Direta', sets: '3', reps: '10–12', rest: '1 min' },
         ],
       },
       {
@@ -1260,14 +1260,14 @@ export const fichasDeTreino: WorkOutPlan[] = [
             reps: '10–12',
             rest: '2 min',
           },
-          { name: 'Stiff', sets: '2', reps: '10–12', rest: '2 min' },
+          { name: 'Stiff', sets: '3', reps: '10–12', rest: '2 min' },
           {
             name: 'Desenvolvimento Arnold',
-            sets: '2',
+            sets: '3',
             reps: '10–12',
             rest: '2 min',
           },
-          { name: 'Rosca Martelo', sets: '2', reps: '12–15', rest: '1 min' },
+          { name: 'Rosca Martelo', sets: '3', reps: '12–15', rest: '1 min' },
         ],
       },
     ],
