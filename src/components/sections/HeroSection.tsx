@@ -13,27 +13,27 @@ export function HeroSection() {
         calistenia)
       </p>
 
-      <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 md:gap-10">
+      <div className="flex sm:flex-row items-center gap-4 sm:gap-6 md:gap-10">
         <Image
           src="/imageTraining1.svg"
           alt=""
           width={187}
           height={200}
-          className="w-[120px] sm:w-[150px] md:w-[187px] h-auto"
+          className="w-[80px] sm:w-[150px] md:w-[187px] h-auto"
         />
         <Image
           src="/imageTraining2.svg"
           alt=""
           width={267}
           height={200}
-          className="w-[150px] sm:w-[200px] md:w-[267px] h-auto"
+          className="w-[130px] sm:w-[200px] md:w-[267px] h-auto"
         />
         <Image
           src="/imageTraining3.svg"
           alt=""
           width={174}
           height={200}
-          className="w-[120px] sm:w-[140px] md:w-[174px] h-auto"
+          className="w-[80px] sm:w-[140px] md:w-[174px] h-auto"
         />
       </div>
 

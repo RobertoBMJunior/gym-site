@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export function Header() {
   return (
-    <header className="pt-4">
+    <header className="pt-4 mx-4">
       <div
         className="
           max-w-7xl
@@ -12,7 +12,7 @@ export function Header() {
           flex
           items-center
           justify-between
-          px-10
+          px-4 sm:px-6 md:px-10
           bg-white/80
           backdrop-blur
           text-slate-900
@@ -27,10 +27,11 @@ export function Header() {
             width={48}
             height={48}
             priority
+            className="w-8 md:w-12"
           />
         </Link>
 
-        <nav className="flex gap-4 font-semibold">
+        <nav className="flex gap-1 md:gap-4 font-semibold">
           <Link
             href="/#como-funciona"
             className="
@@ -39,6 +40,7 @@ export function Header() {
               rounded-lg
               transition
               hover:bg-slate-200
+              text-sm md:text-base
             "
           >
             Como funciona
@@ -52,6 +54,7 @@ export function Header() {
               rounded-lg
               transition
               hover:bg-slate-200
+              text-sm md:text-base
             "
           >
             Benefícios
