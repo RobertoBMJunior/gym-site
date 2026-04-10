@@ -31,12 +31,14 @@ export function Header() {
           />
         </Link>
 
-        <nav className="flex gap-1 md:gap-4 font-semibold">
+        <nav className="flex gap-4 md:gap-4 font-semibold">
           <Link
             href="/#como-funciona"
             className="
-              px-3
-              py-2
+              
+              md:flex
+              px-0 py-0
+              md:px-3 md:py-2
               rounded-lg
               transition
               hover:bg-slate-200
@@ -49,8 +51,9 @@ export function Header() {
           <Link
             href="/#beneficios"
             className="
-              px-3
-              py-2
+              md:flex
+              px-0 py-0
+              md:px-3 md:py-2
               rounded-lg
               transition
               hover:bg-slate-200
