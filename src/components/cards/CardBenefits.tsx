@@ -13,12 +13,12 @@ export function CardBenefits({
   descriptionCard,
 }: CardBenefitsProps) {
   return (
-    <div className="w-full px-6 py-8 bg-white flex flex-col items-center gap-4 border border-slate-200 rounded-3xl shadow-sm">
-      <Icon size={50} className="text-red-600" />
-      <h3 className="font-bold text-center text-slate-600 text-[20px]">
+    <div className="w-full px-6 py-8 bg-white flex flex-col items-center gap-4 border border-slate-200 rounded-3xl shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300">
+      <Icon size={48} className="text-red-600 w-10 md:w-12" />
+      <h3 className="font-bold text-center text-slate-600 text-lg md:text-xl">
         {titleCard}
       </h3>
-      <p className="font-semibold text-center">{descriptionCard}</p>
+      <p className="text-base text-slate-600 text-center">{descriptionCard}</p>
     </div>
   )
 }
