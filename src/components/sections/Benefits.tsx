@@ -1,3 +1,4 @@
+// 'use client'
 //Benefits.tsx
 
 import { BadgeCheck, Dumbbell, Flag, Hourglass } from 'lucide-react'
