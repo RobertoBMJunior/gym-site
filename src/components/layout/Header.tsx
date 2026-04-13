@@ -43,6 +43,7 @@ export function Header() {
               transition
               hover:bg-slate-200
               text-sm md:text-base
+              font-medium
             "
           >
             Como funciona
@@ -58,6 +59,7 @@ export function Header() {
               transition
               hover:bg-slate-200
               text-sm md:text-base
+              font-medium
             "
           >
             Benefícios
