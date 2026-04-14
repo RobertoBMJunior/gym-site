@@ -56,17 +56,17 @@ export default function PerguntasProtocoloPage() {
   }
 
   return (
-    <main className="py-10">
+    <main className="">
       <form
         onSubmit={handleSubmit(saveAnswer)}
-        className="min-h-screen bg-slate-50 flex flex-col items-center justify-start px-7"
+        className="min-h-screen bg-slate-50 flex flex-col items-center justify-start px-5 md:px-7 py-10"
       >
         <Stepper currentStep={currentStep} totalSteps={totalSteps} />
 
         {/*QuestionCard*/}
 
-        <div className="w-full max-w-2xl bg-white rounded-2xl shadow-sm p-8 mt-10">
-          <h2 className="text-2xl font-bold text-slate-900 mb-2">
+        <div className="w-full max-w-2xl bg-white rounded-2xl shadow-sm p-5 md:p-8  mt-8 md:mt-10">
+          <h2 className="text-xl md:text-2xl font-bold text-slate-900 mb-2">
             {currentQuestion.title}
           </h2>
 
