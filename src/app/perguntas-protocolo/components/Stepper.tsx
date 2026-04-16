@@ -12,7 +12,7 @@ export function Stepper({ currentStep, totalSteps }: StepperProps) {
         const isCompleted = step < currentStep
 
         return (
-          <div key={step} className="flex items-center flex-1 gap-2">
+          <div key={step} className="flex items-center flex-1 gap-2 md:ml-10">
             {/* Bolinha */}
             <div
               className={`
@@ -33,7 +33,7 @@ export function Stepper({ currentStep, totalSteps }: StepperProps) {
             {step < totalSteps - 1 && (
               <div
                 className={`
-                  h-1 flex-1 rounded
+                  h-1 flex-1 rounded md:-mr-10
                   ${isCompleted ? 'bg-green-600' : 'bg-slate-200'}
                 `}
               />
