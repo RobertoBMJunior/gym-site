@@ -11,18 +11,18 @@ export interface Question {
 }
 
 export const questions: Question[] = [
-  {
-    id: 'goal',
-    title: 'Qual é o seu objetivo principal?',
-    description: 'Isso define o tipo de treino e o volume ideal.',
-    type: 'options',
-    options: [
-      'Ganhar massa muscular',
-      'Perder gordura',
-      'Recomposição corporal',
-      'Condicionamento físico',
-    ],
-  },
+  // {
+  //   id: 'goal',
+  //   title: 'Qual é o seu objetivo principal?',
+  //   description: 'Isso define o tipo de treino e o volume ideal.',
+  //   type: 'options',
+  //   options: [
+  //     'Ganhar massa muscular',
+  //     'Perder gordura',
+  //     'Recomposição corporal',
+  //     'Condicionamento físico',
+  //   ],
+  // },
 
   {
     id: 'experience',
@@ -46,13 +46,13 @@ export const questions: Question[] = [
     ],
   },
 
-  {
-    id: 'focus',
-    title: 'Qual região você quer priorizar?',
-    description: 'Ajuda a ajustar a ênfase dos exercícios.',
-    type: 'options',
-    options: ['Treino equilibrado', 'Parte superior', 'Pernas e glúteos'],
-  },
+  // {
+  //   id: 'focus',
+  //   title: 'Qual região você quer priorizar?',
+  //   description: 'Ajuda a ajustar a ênfase dos exercícios.',
+  //   type: 'options',
+  //   options: ['Treino equilibrado', 'Parte superior', 'Pernas e glúteos'],
+  // },
 
   {
     id: 'gender',
@@ -62,11 +62,11 @@ export const questions: Question[] = [
     options: ['Homem', 'Mulher'],
   },
 
-  {
-    id: 'age',
-    title: 'Qual é a sua idade?',
-    description: 'A idade ajuda a ajustar volume e recuperação.',
-    type: 'number',
-    placeholder: 'Ex: 25',
-  },
+  // {
+  //   id: 'age',
+  //   title: 'Qual é a sua idade?',
+  //   description: 'A idade ajuda a ajustar volume e recuperação.',
+  //   type: 'number',
+  //   placeholder: 'Ex: 25',
+  // },
 ]

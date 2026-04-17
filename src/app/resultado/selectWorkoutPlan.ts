@@ -11,7 +11,7 @@ interface Answers {
 }
 
 export function selectWorkoutPlan(answers: Answers) {
-  const { experience, frequency, focus, goal, gender } = answers
+  const { experience, frequency, gender } = answers
 
   //2x por semana
   if (frequency === '2x por semana') {

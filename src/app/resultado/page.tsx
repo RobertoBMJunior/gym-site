@@ -37,7 +37,7 @@ export default function ResultPage() {
         <div className="max-w-xl mx-auto mb-12 text-center">
           <ul className="space-y-3 text-slate-700 font-medium">
             <li>🏋️ Frequência: {answers.frequency}</li>
-            <li>🎯 Objetivo: {answers.goal}</li>
+            {/* <li>🎯 Objetivo: {answers.goal}</li> */}
             <li>📈 Nível: {answers.experience}</li>
           </ul>
         </div>
