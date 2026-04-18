@@ -1,15 +1,43 @@
 'use client'
+import { NotebookPen, SearchAlert, SquareX } from 'lucide-react'
 // app/resultado/page.tsx
 
 import { useAnswers } from '../context/AnswersContext'
 import { WorkoutCard } from './components/WorkoutCard'
 import { selectWorkoutPlan } from './selectWorkoutPlan'
+import Link from 'next/link'
 
 export default function ResultPage() {
   const { answers } = useAnswers()
 
   if (!answers) {
-    return <div>Carregando...</div>
+    return (
+      <div className="text-center p-5 my-14 md:p-10 flex flex-col items-center gap-4 h-min">
+        <span className=" text-xl md:text-2xl">Treino Não Encontrado</span>
+        <SquareX className="w-8 h-8 md:w-30 md:h-30 hover:text-red-800 transition" />
+        <Link
+          href="/"
+          aria-label="Ir para página Inicial"
+          className="bg-[#DC2626]
+          px-6 py-3 sm:px-8 sm:py-4 md:px-10 md:py-5
+          rounded-full
+          text-white
+          font-semibold
+          text-lg sm:text-xl md:text-xl
+          flex items-center
+          transition-all
+          duration-300
+          hover:-translate-y-1
+          hover:shadow-xl
+          hover:shadow-red-600/40
+          cursor-pointer
+          hover:brightness-105
+          active:scale-95"
+        >
+          Voltar para página inicial
+        </Link>
+      </div>
+    )
   }
 
   // agora o treino é selecionado dinamicamente
