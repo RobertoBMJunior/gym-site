@@ -27,12 +27,10 @@ export function WorkoutCard({ label, caption, exercises }: WorkoutCardProps) {
             key={index}
             className="border-b border-slate-300 pb-3 last:border-none"
           >
-            {/* Nome do exercício */}
             <p className="font-semibold text-slate-700 mb-1">
               {index + 1}. {exercise.name}
             </p>
 
-            {/* Sets / Reps e Descanso */}
             <div className="flex justify-between text-sm text-slate-500">
               <span>
                 {exercise.sets} x {exercise.reps}

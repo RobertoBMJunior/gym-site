@@ -1,5 +1,5 @@
 'use client'
-import { NotebookPen, SearchAlert, SquareX } from 'lucide-react'
+import { SquareX } from 'lucide-react'
 // app/resultado/page.tsx
 
 import { useAnswers } from '../context/AnswersContext'
@@ -40,7 +40,6 @@ export default function ResultPage() {
     )
   }
 
-  // agora o treino é selecionado dinamicamente
   const selectedWorkout = selectWorkoutPlan(answers)
 
   if (!selectedWorkout) {
@@ -55,7 +54,6 @@ export default function ResultPage() {
   return (
     <section className="min-h-screen py-10">
       <div className="max-w-5xl mx-auto px-6">
-        {/* Header */}
         <div className="text-center mb-3">
           <h1 className="text-2xl md:text-4xl font-bold text-slate-800 mb-5">
             Seu protocolo de treino está pronto 💪
@@ -66,7 +64,6 @@ export default function ResultPage() {
           </p>
         </div>
 
-        {/* Contextualização */}
         <div className="max-w-xl mx-auto mb-8 text-center">
           <ul className="space-y-3 text-slate-700 font-medium">
             <li>🏋️ Frequência: {answers.frequency}</li>
@@ -75,7 +72,6 @@ export default function ResultPage() {
           </ul>
         </div>
 
-        {/* Treinos */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-14">
           {selectedWorkout.workOutRoutine.map((routine, index) => (
             <WorkoutCard
@@ -87,7 +83,6 @@ export default function ResultPage() {
           ))}
         </div>
 
-        {/* CTA */}
         <div className="text-center">
           <p className="text-slate-600 mb-4 pb-4">
             Quer salvar esse treino para acessar quando quiser?

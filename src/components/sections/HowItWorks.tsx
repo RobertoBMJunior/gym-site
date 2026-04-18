@@ -8,8 +8,6 @@ export function HowItWorks() {
       className="border-t border-slate-200 bg-slate-100 py-10 px-4 md:px-6"
     >
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 px-4 md:px-6">
-        
-        {/* TEXTO */}
         <div className="flex-1">
           <h2 className="text-2xl md:text-4xl font-bold text-center md:text-left">
             Como funciona o protocolo de treino
@@ -20,7 +18,6 @@ export function HowItWorks() {
           </h3>
 
           <div className="space-y-8 text-slate-700">
-            {/* Passo 1 */}
             <div className="flex gap-4">
               <Rocket className="text-red-600 mt-1 shrink-0" />
               <div>
@@ -33,7 +30,6 @@ export function HowItWorks() {
               </div>
             </div>
 
-            {/* Passo 2 */}
             <div className="flex gap-4">
               <FileText className="text-red-600 mt-1 shrink-0" />
               <div>
@@ -47,7 +43,6 @@ export function HowItWorks() {
               </div>
             </div>
 
-            {/* Passo 3 */}
             <div className="flex gap-4">
               <CircleCheck className="text-red-600 mt-1 shrink-0" />
               <div>
@@ -63,7 +58,6 @@ export function HowItWorks() {
           </div>
         </div>
 
-        {/* IMAGEM */}
         <div className="flex-1 flex justify-center md:justify-end">
           <Image
             src="/imageTraining4.svg"

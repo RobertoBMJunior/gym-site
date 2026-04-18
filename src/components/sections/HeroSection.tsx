@@ -4,7 +4,7 @@ import Link from 'next/link'
 export function HeroSection() {
   return (
     <section className="w-full flex flex-col items-center gap-4 py-6 px-4 sm:px-6 md:px-10 mb-6">
-      <h1 className="text-2xl sm:text-3xl md:text-5xl text-center font-bold max-w-[700px]">
+      <h1 className="text-2xl sm:text-3xl md:text-5xl text-center font-bold max-w-175">
         Treino personalizado para o seu corpo, nível e objetivo
       </h1>
 
@@ -19,21 +19,21 @@ export function HeroSection() {
           alt=""
           width={187}
           height={200}
-          className="w-[80px] sm:w-[150px] md:w-[187px] h-auto"
+          className="w-20 sm:w-37.5 md:w-46.75 h-auto"
         />
         <Image
           src="/imageTraining2.svg"
           alt=""
           width={267}
           height={200}
-          className="w-[130px] sm:w-[200px] md:w-[267px] h-auto"
+          className="w-32.5 sm:w-50 md:w-66.75 h-auto"
         />
         <Image
           src="/imageTraining3.svg"
           alt=""
           width={174}
           height={200}
-          className="w-[80px] sm:w-[140px] md:w-[174px] h-auto"
+          className="w-20 sm:w-35 md:w-43.5 h-auto"
         />
       </div>
 

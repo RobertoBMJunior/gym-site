@@ -63,8 +63,6 @@ export default function PerguntasProtocoloPage() {
       >
         <Stepper currentStep={currentStep} totalSteps={totalSteps} />
 
-        {/*QuestionCard*/}
-
         <div className="w-full max-w-2xl bg-white rounded-2xl shadow-sm p-5 md:p-8  mt-8 md:mt-10">
           <h2 className="text-xl md:text-2xl font-bold text-slate-900 mb-2">
             {currentQuestion.title}
@@ -110,8 +108,6 @@ export default function PerguntasProtocoloPage() {
             />
           )}
         </div>
-
-        {/* ^^^^^ QuestionCard ^^^^^*/}
 
         <div className="flex justify-between w-full max-w-2xl mt-6">
           <button

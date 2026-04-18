@@ -24,7 +24,6 @@ export function Footer() {
           </Link>
         </div>
 
-        {/* Contato */}
         <div className="text-sm text-slate-600">
           <p>
             Contato:{' '}
