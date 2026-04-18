@@ -1,13 +1,13 @@
 export default function TermosDeUso() {
   return (
-    <main className="max-w-3xl mx-auto px-6 py-10 text-slate-700">
-      <h1 className="text-3xl font-bold mb-6">Termos de Uso</h1>
+    <section className="max-w-3xl mx-auto px-6 py-10 text-slate-700">
+      <h1 className="text-3xl font-bold mb-2">Termos de Uso</h1>
 
-      <p className="mb-4 text-sm text-slate-500">
+      <p className="mb-10 text-sm text-slate-500">
         Última atualização: {new Date().toLocaleDateString('pt-BR')}
       </p>
 
-      <section className="space-y-4">
+      <div className="space-y-4">
         <p>
           Ao acessar e utilizar este site, você concorda com os presentes Termos
           de Uso. Caso não concorde com alguma das condições, recomendamos que
@@ -100,7 +100,7 @@ export default function TermosDeUso() {
           Em caso de dúvidas sobre estes Termos de Uso, entre em contato
           conosco.
         </p>
-      </section>
-    </main>
+      </div>
+    </section>
   )
 }

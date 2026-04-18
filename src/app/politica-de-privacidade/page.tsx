@@ -1,6 +1,6 @@
 export default function PoliticaDePrivacidade() {
   return (
-    <main className="max-w-3xl mx-auto px-6 py-10 text-slate-700">
+    <section className="max-w-3xl mx-auto px-6 py-10 text-slate-700">
       <h1 className="text-3xl font-bold mb-6">Política de Privacidade</h1>
 
       <p className="mb-4 text-sm text-slate-500">
@@ -108,6 +108,6 @@ export default function PoliticaDePrivacidade() {
           contato conosco pelo e-mail: treinopronto@gmail.com
         </p>
       </section>
-    </main>
+    </section>
   )
 }

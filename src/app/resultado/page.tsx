@@ -12,9 +12,9 @@ export default function ResultPage() {
 
   if (!answers) {
     return (
-      <div className="text-center p-5 my-14 md:p-10 flex flex-col items-center gap-4 h-min">
-        <span className=" text-xl md:text-2xl">Treino Não Encontrado</span>
-        <SquareX className="w-8 h-8 md:w-30 md:h-30 hover:text-red-800 transition" />
+      <section className="text-center p-5 my-5 md:p-10 flex flex-col items-center gap-4 h-min">
+        <span className=" text-xl md:text-2xl">Treino Não Encontrado!</span>
+        <SquareX className="w-16 h-16 md:w-30 md:h-30 hover:text-red-800 transition" />
         <Link
           href="/"
           aria-label="Ir para página Inicial"
@@ -23,7 +23,7 @@ export default function ResultPage() {
           rounded-full
           text-white
           font-semibold
-          text-lg sm:text-xl md:text-xl
+          text-base sm:text-xl md:text-xl
           flex items-center
           transition-all
           duration-300
@@ -36,7 +36,7 @@ export default function ResultPage() {
         >
           Voltar para página inicial
         </Link>
-      </div>
+      </section>
     )
   }
 
@@ -44,15 +44,20 @@ export default function ResultPage() {
   const selectedWorkout = selectWorkoutPlan(answers)
 
   if (!selectedWorkout) {
-    return <div>Treino não encontrado</div>
+    return (
+      <section className="text-center p-5 my-5 md:p-10 flex flex-col items-center gap-4 h-min">
+        <span className=" text-xl md:text-2xl">Treino Não Encontrado!</span>
+        <SquareX className="w-16 h-16 md:w-30 md:h-30 hover:text-red-800 transition" />
+      </section>
+    )
   }
 
   return (
-    <section className="min-h-screen py-12">
+    <section className="min-h-screen py-10">
       <div className="max-w-5xl mx-auto px-6">
         {/* Header */}
-        <div className="text-center mb-10">
-          <h1 className="text-4xl font-bold text-slate-800 mb-4">
+        <div className="text-center mb-3">
+          <h1 className="text-2xl md:text-4xl font-bold text-slate-800 mb-5">
             Seu protocolo de treino está pronto 💪
           </h1>
 
@@ -62,7 +67,7 @@ export default function ResultPage() {
         </div>
 
         {/* Contextualização */}
-        <div className="max-w-xl mx-auto mb-12 text-center">
+        <div className="max-w-xl mx-auto mb-8 text-center">
           <ul className="space-y-3 text-slate-700 font-medium">
             <li>🏋️ Frequência: {answers.frequency}</li>
             {/* <li>🎯 Objetivo: {answers.goal}</li> */}

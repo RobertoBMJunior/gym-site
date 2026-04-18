@@ -56,7 +56,7 @@ export default function PerguntasProtocoloPage() {
   }
 
   return (
-    <main className="">
+    <section className="">
       <form
         onSubmit={handleSubmit(saveAnswer)}
         className="min-h-screen bg-slate-50 flex flex-col items-center justify-start px-5 md:px-7 py-10"
@@ -143,6 +143,6 @@ export default function PerguntasProtocoloPage() {
           )}
         </div>
       </form>
-    </main>
+    </section>
   )
 }
