@@ -1,3 +1,11 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Política de Privacidade',
+  description:
+    'Saiba como o Treino Pronto coleta, utiliza e protege suas informações ao utilizar a plataforma.',
+}
+
 export default function PoliticaDePrivacidade() {
   return (
     <section className="max-w-3xl mx-auto px-6 py-10 text-slate-700">

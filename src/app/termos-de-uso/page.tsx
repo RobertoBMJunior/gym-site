@@ -1,3 +1,11 @@
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Termos de Uso',
+  description:
+    'Leia os termos de uso do Treino Pronto e conheça as regras, responsabilidades e condições para utilização do site.',
+}
+
 export default function TermosDeUso() {
   return (
     <section className="max-w-3xl mx-auto px-6 py-10 text-slate-700">
