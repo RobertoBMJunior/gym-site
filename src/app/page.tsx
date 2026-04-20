@@ -1,4 +1,4 @@
-import { AdSection } from '@/components/sections/AdSection'
+// import { AdSection } from '@/components/sections/AdSection'
 import { Benefits } from '@/components/sections/Benefits'
 import { HeroSection } from '@/components/sections/HeroSection'
 import { HowItWorks } from '@/components/sections/HowItWorks'
@@ -16,7 +16,7 @@ export default function Home() {
     <main className="">
       <HeroSection />
       <HowItWorks />
-      <AdSection />
+      {/* <AdSection /> */}
       <Benefits />
     </main>
   )
