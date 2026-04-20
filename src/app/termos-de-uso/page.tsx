@@ -15,7 +15,7 @@ export default function TermosDeUso() {
         Última atualização: {new Date().toLocaleDateString('pt-BR')}
       </p>
 
-      <div className="space-y-4">
+      <div className="space-y-4 leading-relaxed">
         <p>
           Ao acessar e utilizar este site, você concorda com os presentes Termos
           de Uso. Caso não concorde com alguma das condições, recomendamos que
@@ -24,8 +24,9 @@ export default function TermosDeUso() {
 
         <h2 className="text-xl font-semibold mt-6">1. Uso do site</h2>
         <p>
-          Este site tem como objetivo fornecer sugestões de treinos físicos com
-          base nas informações fornecidas pelo usuário.
+          Este site tem como objetivo fornecer sugestões automatizadas de
+          treinos físicos com base nas informações fornecidas pelo usuário, sem
+          substituir orientação profissional.
         </p>
         <p>
           O uso das informações disponibilizadas é de responsabilidade exclusiva
@@ -36,7 +37,8 @@ export default function TermosDeUso() {
           2. Responsabilidade e saúde
         </h2>
         <p>
-          Os treinos sugeridos não substituem a orientação de um profissional de
+          Os treinos sugeridos não constituem aconselhamento profissional
+          individualizado e não substituem a orientação de um profissional de
           educação física ou médico.
         </p>
         <p>
@@ -54,11 +56,13 @@ export default function TermosDeUso() {
         </h2>
         <p>
           Não nos responsabilizamos por quaisquer danos, lesões ou prejuízos
-          decorrentes do uso das informações disponibilizadas neste site.
+          decorrentes do uso das informações disponibilizadas neste site,
+          incluindo a execução inadequada dos exercícios sugeridos.
         </p>
         <p>
           O conteúdo é fornecido sem garantias de qualquer tipo e não assegura
-          resultados específicos.
+          resultados específicos. O uso das informações é feito por conta e
+          risco do usuário.
         </p>
 
         <h2 className="text-xl font-semibold mt-6">
@@ -70,14 +74,15 @@ export default function TermosDeUso() {
         </p>
         <p>
           Não é permitido copiar, reproduzir ou distribuir qualquer conteúdo sem
-          autorização prévia.
+          autorização prévia. O uso indevido do conteúdo poderá resultar em
+          medidas legais.
         </p>
 
         <h2 className="text-xl font-semibold mt-6">
           5. Publicidade e terceiros
         </h2>
         <p>
-          Este site pode exibir anúncios por meio de plataformas de terceiros,
+          Este site poderá exibir anúncios por meio de plataformas de terceiros,
           como o Google AdSense.
         </p>
         <p>
@@ -101,12 +106,15 @@ export default function TermosDeUso() {
         </p>
 
         <h2 className="text-xl font-semibold mt-6">8. Legislação aplicável</h2>
-        <p>Estes termos são regidos pelas leis vigentes no Brasil.</p>
+        <p>
+          Estes termos são regidos pelas leis vigentes no Brasil, em especial a
+          Lei Geral de Proteção de Dados (LGPD), quando aplicável.
+        </p>
 
         <h2 className="text-xl font-semibold mt-6">9. Contato</h2>
         <p>
-          Em caso de dúvidas sobre estes Termos de Uso, entre em contato
-          conosco.
+          Em caso de dúvidas sobre estes Termos de Uso, entre em contato conosco
+          pelo e-mail: treinopronto@gmail.com.
         </p>
       </div>
     </section>
