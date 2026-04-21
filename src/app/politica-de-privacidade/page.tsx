@@ -124,7 +124,7 @@ export default function PoliticaDePrivacidade() {
         <h2 className="text-xl font-semibold mt-6">9. Contato</h2>
         <p>
           Em caso de dúvidas sobre esta Política de Privacidade, entre em
-          contato conosco pelo e-mail: treinopronto@gmail.com
+          contato conosco pelo e-mail: atendimentotreinopronto@gmail.com
         </p>
       </div>
     </section>

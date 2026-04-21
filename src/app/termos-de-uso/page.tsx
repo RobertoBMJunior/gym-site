@@ -114,7 +114,7 @@ export default function TermosDeUso() {
         <h2 className="text-xl font-semibold mt-6">9. Contato</h2>
         <p>
           Em caso de dúvidas sobre estes Termos de Uso, entre em contato conosco
-          pelo e-mail: treinopronto@gmail.com.
+          pelo e-mail: atendimentotreinopronto@gmail.com
         </p>
       </div>
     </section>

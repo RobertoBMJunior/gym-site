@@ -28,7 +28,7 @@ export function Footer() {
           <p>
             Contato:{' '}
             <a href="mailto:treinopronto@gmail.com" className="hover:underline">
-              treinopronto@gmail.com
+              atendimentotreinopronto@gmail.com
             </a>
           </p>
           <p className="mt-1">© {new Date().getFullYear()} – Treino Pronto</p>
