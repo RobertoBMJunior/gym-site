@@ -1,0 +1,23 @@
+export const blogPosts = [
+  {
+    title: 'Treino para iniciantes na academia',
+    description: 'Guia completo para quem está começando na academia.',
+    slug: 'treino-para-iniciantes',
+    image: '/images/iniciante.jpg',
+    date: '2026-04-22',
+  },
+  {
+    title: 'Treino para emagrecer rápido',
+    description: 'Estratégias e exercícios para perda de gordura.',
+    slug: 'treino-para-emagrecer',
+    image: '/images/iniciante.jpg',
+    date: '2026-04-22',
+  },
+  {
+    title: 'Treino ABC completo',
+    description: 'Divisão de treino ABC explicada de forma simples.',
+    slug: 'treino-abc',
+    image: '/images/iniciante.jpg',
+    date: '2026-04-22',
+  },
+]
