@@ -11,25 +11,20 @@ export interface Question {
 }
 
 export const questions: Question[] = [
-  // {
-  //   id: 'goal',
-  //   title: 'Qual é o seu objetivo principal?',
-  //   description: 'Isso define o tipo de treino e o volume ideal.',
-  //   type: 'options',
-  //   options: [
-  //     'Ganhar massa muscular',
-  //     'Perder gordura',
-  //     'Recomposição corporal',
-  //     'Condicionamento físico',
-  //   ],
-  // },
-
   {
     id: 'experience',
     title: 'Qual é o seu nível de treino?',
     description: 'Evita treinos avançados ou leves demais.',
     type: 'options',
     options: ['Iniciante', 'Intermediário', 'Avançado'],
+  },
+
+  {
+    id: 'goal',
+    title: 'Qual é o seu objetivo principal?',
+    description: 'Isso define o tipo de treino e o volume ideal.',
+    type: 'options',
+    options: ['Ganhar massa muscular', 'Perder gordura'],
   },
 
   {

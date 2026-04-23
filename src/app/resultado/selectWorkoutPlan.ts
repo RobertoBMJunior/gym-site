@@ -11,7 +11,19 @@ interface Answers {
 }
 
 export function selectWorkoutPlan(answers: Answers) {
-  const { experience, frequency, gender } = answers
+  const { experience, frequency, gender, goal } = answers
+
+  if (goal === 'Perder gordura') {
+    if (gender === 'Homem') {
+      return fichasDeTreino.find((treino) => treino.id === 'fullBodyFatLossMen')
+    }
+
+    if (gender === 'Mulher') {
+      return fichasDeTreino.find(
+        (treino) => treino.id === 'fullBodyFatLossWomen'
+      )
+    }
+  }
 
   //2x por semana
   if (frequency === '2x por semana') {
