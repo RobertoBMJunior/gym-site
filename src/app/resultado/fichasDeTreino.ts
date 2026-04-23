@@ -72,7 +72,7 @@ export const fichasDeTreino: WorkOutPlan[] = [
         exercises: [
           { name: 'Leg Press 45º', sets: '3', reps: '10–12', rest: '2 min' },
           {
-            name: 'Supino Inclinado (Halteres)',
+            name: 'Supino Inclinado na Máquina',
             sets: '3',
             reps: '8–10',
             rest: '2 min',
