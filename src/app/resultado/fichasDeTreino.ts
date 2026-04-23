@@ -22,6 +22,113 @@ interface WorkOutPlan {
 
 export const fichasDeTreino: WorkOutPlan[] = [
   {
+    id: 'fullBodyFatLossMen',
+    title: 'Full Body Iniciante - Masculino',
+    pdfFile: '/pdfs/fullBodyFatLossMen.pdf',
+    workOutRoutine: [
+      {
+        label: 'Treino Único',
+        caption: 'Foco em Base Muscular e Gasto Calórico',
+        exercises: [
+          {
+            name: 'Agachamento Livre ou Máquina',
+            sets: '3',
+            reps: '10–12',
+            rest: '90 seg',
+          },
+          {
+            name: 'Supino Reto (Halteres ou Máquina)',
+            sets: '3',
+            reps: '10–12',
+            rest: '90 seg',
+          },
+          {
+            name: 'Puxada Aberta no Pulley',
+            sets: '3',
+            reps: '10–12',
+            rest: '90 seg',
+          },
+          { name: 'Leg Press 45º', sets: '3', reps: '12', rest: '90 seg' },
+          {
+            name: 'Desenvolvimento de Ombros (Máquina)',
+            sets: '3',
+            reps: '12',
+            rest: '90 seg',
+          },
+          {
+            name: 'Abdominal Supra (Solo)',
+            sets: '3',
+            reps: '15–20',
+            rest: '60 seg',
+          },
+          {
+            name: 'Cardio: Caminhada Inclinada ou Bike',
+            sets: '1',
+            reps: '15-20 min',
+            rest: '0',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'fullBodyFatLossWomen',
+    title: 'Full Body Iniciante - Feminino',
+    pdfFile: '/pdfs/fullBodyFatLossWomen.pdf',
+    workOutRoutine: [
+      {
+        label: 'Treino Único',
+        caption: 'Foco em Membros Inferiores e Tonificação',
+        exercises: [
+          {
+            name: 'Agachamento Sumô',
+            sets: '3',
+            reps: '12–15',
+            rest: '90 seg',
+          },
+          {
+            name: 'Puxada Aberta no Pulley',
+            sets: '3',
+            reps: '12',
+            rest: '90 seg',
+          },
+          {
+            name: 'Cadeira Flexora (Posterior)',
+            sets: '3',
+            reps: '12–15',
+            rest: '90 seg',
+          },
+          {
+            name: 'Supino Vertical (Máquina)',
+            sets: '3',
+            reps: '12',
+            rest: '90 seg',
+          },
+          {
+            name: 'Elevação Pélvica (Sem peso ou Halter)',
+            sets: '3',
+            reps: '15',
+            rest: '90 seg',
+          },
+          {
+            name: 'Prancha Abdominal',
+            sets: '3',
+            reps: '30-45 seg',
+            rest: '60 seg',
+          },
+          {
+            name: 'Cardio: Elíptico ou Esteira',
+            sets: '1',
+            reps: '15-20 min',
+            rest: '0',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
     id: 'fullBodyAltaPerformance',
     title: 'Protocolo Full Body Completo',
     pdfFile: '/pdfs/fullBodyAltaPerformance.pdf',

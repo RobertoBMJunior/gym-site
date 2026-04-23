@@ -10,7 +10,7 @@ export const blogPosts = [
     title: 'Treino para emagrecer rápido',
     description: 'Estratégias e exercícios para perda de gordura.',
     slug: 'treino-para-emagrecer',
-    image: '/images/blog/treino-iniciantes.jpg',
+    image: '/images/blog/treino-para-emagrecer.jpg',
     date: '2026-04-23',
   },
   {
