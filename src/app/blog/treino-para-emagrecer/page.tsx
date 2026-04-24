@@ -56,7 +56,7 @@ export default function TreinoParaEmagrecer() {
       </h2>
 
       <p className="mb-4">
-        Veja um exemplo simples que pode ser feito por iniciantes:
+        Veja um exemplo simples que pode ser feito por iniciantes na academia:
       </p>
 
       <ul className="list-disc pl-6 mb-4">
@@ -98,7 +98,6 @@ export default function TreinoParaEmagrecer() {
         <li>Evitar longos períodos sem atividade</li>
       </ul>
 
-      {/* CTA */}
       <div className="bg-slate-100 p-6 rounded-lg text-center mt-10">
         <h2 className="text-xl font-semibold mb-2">
           Quer um treino personalizado para emagrecer?

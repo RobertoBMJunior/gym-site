@@ -4,7 +4,7 @@ import { blogPosts } from '@/lib/blog-posts'
 
 export default function BlogPage() {
   return (
-    <section className="max-w-6xl mx-auto px-6 py-12">
+    <section className="max-w-6xl mx-auto px-6 py-8">
       <div className="mb-10 text-center">
         <h1 className="text-4xl font-bold mb-3">Blog</h1>
         <p className="text-slate-600">

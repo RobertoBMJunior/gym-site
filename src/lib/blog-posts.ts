@@ -17,7 +17,23 @@ export const blogPosts = [
     title: 'Treino ABC completo',
     description: 'Divisão de treino ABC explicada de forma simples.',
     slug: 'treino-abc',
-    image: '/images/blog/treino-iniciantes.jpg',
+    image: '/images/blog/treino-abc.jpg',
+    date: '2026-04-23',
+  },
+
+  {
+    title: 'Treino em Casa',
+    description: 'Divisão de treino ABC explicada de forma simples.',
+    slug: 'treino-em-casa',
+    image: '/images/blog/treino-em-casa.jpg',
+    date: '2026-04-23',
+  },
+
+  {
+    title: 'Treino Feminino',
+    description: 'Divisão de treino ABC explicada de forma simples.',
+    slug: 'treino-feminino',
+    image: '/images/blog/treino-feminino.jpg',
     date: '2026-04-23',
   },
 ]

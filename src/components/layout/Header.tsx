@@ -1,3 +1,4 @@
+import { Book, Newspaper, NotepadText } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -31,25 +32,26 @@ export function Header() {
           />
         </Link>
 
-        <nav className="flex gap-4 md:gap-4 font-semibold">
+        <nav className="flex gap-4 font-semibold">
           <Link
-            href="/#como-funciona"
+            href="/blog"
             className="
               
-              md:flex
+              flex gap-1 items-center
               px-0 py-0
               md:px-3 md:py-2
               rounded-lg
               transition
               hover:bg-slate-200
-              text-sm md:text-base
+              text-base
               font-medium
             "
           >
-            Como funciona
+            <NotepadText className="w-4" />
+            <span>Blog</span>
           </Link>
 
-          <Link
+          {/* <Link
             href="/#beneficios"
             className="
               md:flex
@@ -63,7 +65,7 @@ export function Header() {
             "
           >
             Benefícios
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </header>

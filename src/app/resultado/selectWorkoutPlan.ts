@@ -13,7 +13,11 @@ interface Answers {
 export function selectWorkoutPlan(answers: Answers) {
   const { experience, frequency, gender, goal } = answers
 
-  if (goal === 'Perder gordura') {
+  if (
+    goal === 'Perder gordura' &&
+    experience === 'Iniciante' &&
+    frequency === '2x por semana'
+  ) {
     if (gender === 'Homem') {
       return fichasDeTreino.find((treino) => treino.id === 'fullBodyFatLossMen')
     }
