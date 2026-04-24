@@ -12,6 +12,15 @@ export interface Question {
 
 export const questions: Question[] = [
   {
+    id: 'gymOrCalisthenics',
+    title: 'Onde você pretende treinar?',
+    description:
+      'Você pode treinar na academia ou em casa/ao ar livre usando apenas o peso do corpo (calistenia).',
+    type: 'options',
+    options: ['Academia', 'Em casa ou ao ar livre (calistenia)'],
+  },
+
+  {
     id: 'experience',
     title: 'Qual é o seu nível de treino?',
     description: 'Evita treinos avançados ou leves demais.',
@@ -41,14 +50,6 @@ export const questions: Question[] = [
     ],
   },
 
-  // {
-  //   id: 'focus',
-  //   title: 'Qual região você quer priorizar?',
-  //   description: 'Ajuda a ajustar a ênfase dos exercícios.',
-  //   type: 'options',
-  //   options: ['Treino equilibrado', 'Parte superior', 'Pernas e glúteos'],
-  // },
-
   {
     id: 'gender',
     title: 'Qual seu gênero?',
@@ -56,6 +57,14 @@ export const questions: Question[] = [
     type: 'options',
     options: ['Homem', 'Mulher'],
   },
+
+  // {
+  //   id: 'focus',
+  //   title: 'Qual região você quer priorizar?',
+  //   description: 'Ajuda a ajustar a ênfase dos exercícios.',
+  //   type: 'options',
+  //   options: ['Treino equilibrado', 'Parte superior', 'Pernas e glúteos'],
+  // },
 
   // {
   //   id: 'age',

@@ -22,6 +22,1080 @@ interface WorkOutPlan {
 
 export const fichasDeTreino: WorkOutPlan[] = [
   {
+    id: 'fullBodyCalisteniaIniciante',
+    title: 'Full Body Calistenia - Iniciante',
+    pdfFile: '/pdfs/fullBodyCalisteniaIniciante.pdf',
+    workOutRoutine: [
+      {
+        label: 'Treino Único',
+        caption: 'Foco em Base, Coordenação e Progressão',
+        exercises: [
+          {
+            name: 'Agachamento Livre (Peso Corporal)',
+            sets: '3',
+            reps: '12–15',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Flexão de Braço (parede → joelhos → normal)',
+            sets: '3',
+            reps: '8–12',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Remada Australiana (ou puxada improvisada em mesa)',
+            sets: '3',
+            reps: '8–12',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Afundo (Lunge) Alternado',
+            sets: '3',
+            reps: '10 cada perna',
+            rest: '60 seg',
+          },
+          {
+            name: 'Prancha (joelhos → completa)',
+            sets: '3',
+            reps: '20–40 seg',
+            rest: '45–60 seg',
+          },
+          {
+            name: 'Polichinelos',
+            sets: '3',
+            reps: '30–40 seg',
+            rest: '30 seg',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'hiitCalisteniaFatLoss',
+    title: 'Calistenia HIIT - Queima de Gordura',
+    pdfFile: '/pdfs/hiitCalisteniaFatLoss.pdf',
+    workOutRoutine: [
+      {
+        label: 'Treino Único',
+        caption: 'Foco em Alta Intensidade com Estímulo de Força',
+        exercises: [
+          {
+            name: 'Burpees',
+            sets: '4',
+            reps: '30 seg',
+            rest: '30 seg',
+          },
+          {
+            name: 'Flexão de Braço',
+            sets: '4',
+            reps: '30 seg',
+            rest: '30 seg',
+          },
+          {
+            name: 'Remada Australiana (barra baixa)',
+            sets: '4',
+            reps: '30 seg',
+            rest: '30 seg',
+          },
+          {
+            name: 'Agachamento Livre (rápido e controlado)',
+            sets: '4',
+            reps: '30 seg',
+            rest: '30 seg',
+          },
+          {
+            name: 'Afundo (Lunge) Alternado',
+            sets: '3',
+            reps: '30 seg',
+            rest: '30 seg',
+          },
+          {
+            name: 'Mountain Climbers',
+            sets: '3',
+            reps: '30 seg',
+            rest: '30 seg',
+          },
+          {
+            name: 'Prancha',
+            sets: '3',
+            reps: '40 seg',
+            rest: '20 seg',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'fullBodyCalisteniaIntermediario2x',
+    title: 'Full Body Calistenia - Intermediário (2x por Semana)',
+    pdfFile: '/pdfs/fullBodyCalisteniaIntermediario2x.pdf',
+    workOutRoutine: [
+      {
+        label: 'Treino A',
+        caption: 'Foco em Força e Base Completa',
+        exercises: [
+          {
+            name: 'Barra Fixa (pegada pronada)',
+            sets: '4',
+            reps: '6–10',
+            rest: '90–120 seg',
+          },
+          {
+            name: 'Flexão de Braço Tradicional',
+            sets: '4',
+            reps: '10–15',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Agachamento Búlgaro',
+            sets: '3',
+            reps: '10–12 cada perna',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Remada Australiana',
+            sets: '3',
+            reps: '10–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Pike Push-Up',
+            sets: '3',
+            reps: '8–12',
+            rest: '60 seg',
+          },
+          {
+            name: 'Elevação de Pernas',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Prancha',
+            sets: '2',
+            reps: '40–60 seg',
+            rest: '45 seg',
+          },
+        ],
+      },
+      {
+        label: 'Treino B',
+        caption: 'Foco em Volume e Resistência',
+        exercises: [
+          {
+            name: 'Barra Fixa Supinada (chin-up)',
+            sets: '4',
+            reps: '6–10',
+            rest: '90–120 seg',
+          },
+          {
+            name: 'Flexão Declinado (pé elevado)',
+            sets: '3',
+            reps: '10–15',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Afundo (Lunge) Alternado',
+            sets: '3',
+            reps: '12–15 cada perna',
+            rest: '60 seg',
+          },
+          {
+            name: 'Remada Australiana (pegada aberta)',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Mergulho em Banco (Tríceps)',
+            sets: '3',
+            reps: '10–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Elevação de Panturrilha',
+            sets: '3',
+            reps: '15–20',
+            rest: '45–60 seg',
+          },
+          {
+            name: 'Mountain Climbers',
+            sets: '2',
+            reps: '30–40 seg',
+            rest: '30 seg',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'upperLowerCalisteniaIntermediario4x',
+    title: 'Upper/Lower Calistenia - Intermediário',
+    pdfFile: '/pdfs/upperLowerCalisteniaIntermediario4x.pdf',
+    workOutRoutine: [
+      {
+        label: 'Segunda e Quinta - Superior',
+        caption: 'Foco em Força, Hipertrofia e Controle',
+        exercises: [
+          {
+            name: 'Barra Fixa (pegada pronada)',
+            sets: '4',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Flexão de Braço Tradicional',
+            sets: '4',
+            reps: '12–15',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Barra Fixa Supinada (chin-up)',
+            sets: '3',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Flexão Declinado (pé elevado)',
+            sets: '3',
+            reps: '10–15',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Remada Australiana',
+            sets: '3',
+            reps: '10–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Pike Push-Up (ombro)',
+            sets: '3',
+            reps: '8–12',
+            rest: '60 seg',
+          },
+          {
+            name: 'Mergulho em Banco (Tríceps)',
+            sets: '3',
+            reps: '10–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Prancha',
+            sets: '3',
+            reps: '30–45 seg',
+            rest: '45 seg',
+          },
+        ],
+      },
+      {
+        label: 'Terça e Sexta - Inferior',
+        caption: 'Foco em Pernas, Glúteos e Core',
+        exercises: [
+          {
+            name: 'Agachamento Búlgaro',
+            sets: '4',
+            reps: '10–12 cada perna',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Pistol Squat (ou progressão)',
+            sets: '3',
+            reps: '5–8 cada perna',
+            rest: '90 seg',
+          },
+          {
+            name: 'Afundo (Lunge) Alternado',
+            sets: '3',
+            reps: '12 cada perna',
+            rest: '60 seg',
+          },
+          {
+            name: 'Elevação de Panturrilha (em degrau)',
+            sets: '4',
+            reps: '15–20',
+            rest: '45–60 seg',
+          },
+          {
+            name: 'Elevação de Pernas (barra ou solo)',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Prancha Lateral',
+            sets: '3',
+            reps: '20–30 seg cada lado',
+            rest: '45 seg',
+          },
+          {
+            name: 'Mountain Climbers',
+            sets: '3',
+            reps: '30–40 seg',
+            rest: '30 seg',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'fullBodyCalisteniaIntermediario3x',
+    title: 'Full Body Calistenia - Intermediário',
+    pdfFile: '/pdfs/fullBodyCalisteniaIntermediario3x.pdf',
+    workOutRoutine: [
+      {
+        label: 'Treino A',
+        caption: 'Foco em Força e Base',
+        exercises: [
+          {
+            name: 'Barra Fixa (pegada pronada)',
+            sets: '4',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Flexão de Braço Tradicional',
+            sets: '4',
+            reps: '10–15',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Agachamento Búlgaro',
+            sets: '3',
+            reps: '10 cada perna',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Remada Australiana',
+            sets: '3',
+            reps: '10–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Pike Push-Up (ombro)',
+            sets: '3',
+            reps: '8–12',
+            rest: '60 seg',
+          },
+          {
+            name: 'Prancha',
+            sets: '3',
+            reps: '30–45 seg',
+            rest: '45 seg',
+          },
+        ],
+      },
+      {
+        label: 'Treino B',
+        caption: 'Foco em Volume e Resistência',
+        exercises: [
+          {
+            name: 'Barra Fixa Supinada (chin-up)',
+            sets: '4',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Flexão Declinado (pé elevado)',
+            sets: '3',
+            reps: '10–15',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Afundo (Lunge) Alternado',
+            sets: '3',
+            reps: '12 cada perna',
+            rest: '60 seg',
+          },
+          {
+            name: 'Remada Australiana (pegada aberta)',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Mergulho em Banco (Tríceps)',
+            sets: '3',
+            reps: '10–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Elevação de Pernas (barra ou solo)',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+        ],
+      },
+      {
+        label: 'Treino C',
+        caption: 'Foco em Controle e Estabilidade',
+        exercises: [
+          {
+            name: 'Barra Fixa (execução controlada)',
+            sets: '3',
+            reps: '6–8',
+            rest: '90 seg',
+          },
+          {
+            name: 'Flexão com Tempo (3-1-3)',
+            sets: '3',
+            reps: '10–12',
+            rest: '60 seg',
+          },
+          {
+            name: 'Agachamento Livre (pausa no fundo)',
+            sets: '3',
+            reps: '12–15',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Step-Up em banco',
+            sets: '3',
+            reps: '10 cada perna',
+            rest: '60 seg',
+          },
+          {
+            name: 'Pike Push-Up ou Handstand (progressão)',
+            sets: '3',
+            reps: '8–12 ou 20–30 seg',
+            rest: '60 seg',
+          },
+          {
+            name: 'Prancha Lateral',
+            sets: '3',
+            reps: '20–30 seg cada lado',
+            rest: '45 seg',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'fullBodyCalisteniaAvancado2x',
+    title: 'Full Body Calistenia - Avançado (2x por Semana)',
+    pdfFile: '/pdfs/fullBodyCalisteniaAvancado2x.pdf',
+    workOutRoutine: [
+      {
+        label: 'Treino A',
+        caption: 'Foco em Força Máxima e Controle',
+        exercises: [
+          {
+            name: 'Barra Fixa com Peso (ou progressão avançada)',
+            sets: '5',
+            reps: '4–6',
+            rest: '120 seg',
+          },
+          {
+            name: 'Flexão Pseudo Planche ou Declinado',
+            sets: '4',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Pistol Squat',
+            sets: '4',
+            reps: '5–8 cada perna',
+            rest: '120 seg',
+          },
+          {
+            name: 'Remada Australiana (pé elevado)',
+            sets: '3',
+            reps: '8–12',
+            rest: '90 seg',
+          },
+          {
+            name: 'Pike Push-Up Elevado ou Handstand Push-Up (progressão)',
+            sets: '3',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Hanging Leg Raise (ou elevação avançada)',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Prancha Avançada (com peso ou variação)',
+            sets: '2',
+            reps: '45–60 seg',
+            rest: '60 seg',
+          },
+        ],
+      },
+      {
+        label: 'Treino B',
+        caption: 'Foco em Volume, Resistência e Estabilidade',
+        exercises: [
+          {
+            name: 'Barra Fixa',
+            sets: '4',
+            reps: '8–12',
+            rest: '90 seg',
+          },
+          {
+            name: 'Flexão de Braço (alta repetição ou avançada)',
+            sets: '4',
+            reps: '15–20',
+            rest: '60 seg',
+          },
+          {
+            name: 'Agachamento Búlgaro',
+            sets: '4',
+            reps: '10–12 cada perna',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Afundo (Lunge) Alternado',
+            sets: '3',
+            reps: '12–15 cada perna',
+            rest: '60 seg',
+          },
+          {
+            name: 'Mergulho em Banco ou Paralelas',
+            sets: '3',
+            reps: '10–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Elevação de Panturrilha (unilateral)',
+            sets: '3',
+            reps: '15–20',
+            rest: '45–60 seg',
+          },
+          {
+            name: 'Mountain Climbers',
+            sets: '2',
+            reps: '40 seg',
+            rest: '30 seg',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'fullBodyCalisteniaAvancado3x',
+    title: 'Full Body Calistenia - Avançado (3x)',
+    pdfFile: '/pdfs/fullBodyCalisteniaAvancado3x.pdf',
+    workOutRoutine: [
+      {
+        label: 'Treino A',
+        caption: 'Foco em Força Máxima',
+        exercises: [
+          {
+            name: 'Barra Fixa com Peso (ou progressão avançada)',
+            sets: '5',
+            reps: '4–6',
+            rest: '120 seg',
+          },
+          {
+            name: 'Flexão Pseudo Planche ou Declinado',
+            sets: '4',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Pistol Squat',
+            sets: '4',
+            reps: '5–8 cada perna',
+            rest: '120 seg',
+          },
+          {
+            name: 'Remada Australiana (pé elevado)',
+            sets: '3',
+            reps: '8–12',
+            rest: '90 seg',
+          },
+          {
+            name: 'Pike Push-Up Elevado',
+            sets: '3',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Hollow Body Hold',
+            sets: '3',
+            reps: '40–60 seg',
+            rest: '60 seg',
+          },
+        ],
+      },
+      {
+        label: 'Treino B',
+        caption: 'Foco em Volume e Hipertrofia',
+        exercises: [
+          {
+            name: 'Barra Fixa',
+            sets: '4',
+            reps: '8–12',
+            rest: '90 seg',
+          },
+          {
+            name: 'Flexão de Braço (alta repetição)',
+            sets: '4',
+            reps: '15–20',
+            rest: '60 seg',
+          },
+          {
+            name: 'Agachamento Búlgaro',
+            sets: '4',
+            reps: '10–12 cada perna',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Afundo (Lunge) Alternado',
+            sets: '3',
+            reps: '12–15 cada perna',
+            rest: '60 seg',
+          },
+          {
+            name: 'Mergulho em Banco',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Elevação de Pernas',
+            sets: '3',
+            reps: '15–20',
+            rest: '60 seg',
+          },
+        ],
+      },
+      {
+        label: 'Treino C',
+        caption: 'Foco em Controle, Técnica e Estabilidade',
+        exercises: [
+          {
+            name: 'Barra Fixa (execução lenta 3-1-3)',
+            sets: '3',
+            reps: '6–8',
+            rest: '90 seg',
+          },
+          {
+            name: 'Flexão Controlada (tempo 3-1-3)',
+            sets: '3',
+            reps: '10–12',
+            rest: '60 seg',
+          },
+          {
+            name: 'Agachamento com Pausa (2 seg no fundo)',
+            sets: '3',
+            reps: '12–15',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Cossack Squat',
+            sets: '3',
+            reps: '8–10 cada lado',
+            rest: '60 seg',
+          },
+          {
+            name: 'Handstand (ou progressão)',
+            sets: '4',
+            reps: '30–45 seg',
+            rest: '60 seg',
+          },
+          {
+            name: 'Prancha Lateral',
+            sets: '3',
+            reps: '30–40 seg cada lado',
+            rest: '45 seg',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'upperLowerCalisteniaAvancado4x',
+    title: 'Upper/Lower Calistenia - Avançado (4x por Semana)',
+    pdfFile: '/pdfs/upperLowerCalisteniaAvancado4x.pdf',
+    workOutRoutine: [
+      {
+        label: 'Segunda - Superior (Força)',
+        caption: 'Foco em Baixas Reps e Alta Intensidade',
+        exercises: [
+          {
+            name: 'Barra Fixa com Peso (ou progressão avançada)',
+            sets: '5',
+            reps: '4–6',
+            rest: '120 seg',
+          },
+          {
+            name: 'Flexão Pseudo Planche ou Declinado',
+            sets: '4',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Barra Fixa Supinada (chin-up)',
+            sets: '4',
+            reps: '4–6',
+            rest: '120 seg',
+          },
+          {
+            name: 'Pike Push-Up Elevado ou HSPU (progressão)',
+            sets: '3',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Hanging Leg Raise',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+        ],
+      },
+      {
+        label: 'Terça - Inferior (Força)',
+        caption: 'Foco em Unilateral Pesado e Controle',
+        exercises: [
+          {
+            name: 'Pistol Squat',
+            sets: '5',
+            reps: '4–6 cada perna',
+            rest: '120 seg',
+          },
+          {
+            name: 'Agachamento Búlgaro',
+            sets: '4',
+            reps: '8–10 cada perna',
+            rest: '90 seg',
+          },
+          {
+            name: 'Nordic Curl (ou progressão)',
+            sets: '3',
+            reps: '4–6',
+            rest: '120 seg',
+          },
+          {
+            name: 'Elevação de Panturrilha (unilateral)',
+            sets: '4',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Hollow Body Hold',
+            sets: '3',
+            reps: '30–40 seg',
+            rest: '60 seg',
+          },
+        ],
+      },
+      {
+        label: 'Quinta - Superior (Volume)',
+        caption: 'Foco em Hipertrofia e Resistência',
+        exercises: [
+          {
+            name: 'Barra Fixa',
+            sets: '4',
+            reps: '8–12',
+            rest: '90 seg',
+          },
+          {
+            name: 'Flexão de Braço (alta repetição)',
+            sets: '4',
+            reps: '15–20',
+            rest: '60 seg',
+          },
+          {
+            name: 'Remada Australiana',
+            sets: '4',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Flexão Diamante',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Mergulho em Paralelas ou Banco',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Prancha',
+            sets: '3',
+            reps: '40–60 seg',
+            rest: '45 seg',
+          },
+        ],
+      },
+      {
+        label: 'Sexta - Inferior (Volume)',
+        caption: 'Foco em Resistência e Estímulo Metabólico',
+        exercises: [
+          {
+            name: 'Agachamento Livre (alto volume)',
+            sets: '4',
+            reps: '15–20',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Afundo (Lunge) Alternado',
+            sets: '4',
+            reps: '15 cada perna',
+            rest: '60 seg',
+          },
+          {
+            name: 'Step-Up em banco',
+            sets: '3',
+            reps: '12 cada perna',
+            rest: '60 seg',
+          },
+          {
+            name: 'Elevação de Panturrilha',
+            sets: '4',
+            reps: '20–25',
+            rest: '45 seg',
+          },
+          {
+            name: 'Mountain Climbers',
+            sets: '3',
+            reps: '30–40 seg',
+            rest: '30 seg',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
+    id: 'calisteniaAvancado6xSemana',
+    title: 'Calistenia Avançado - 6x por Semana',
+    pdfFile: '/pdfs/calisteniaAvancado6xSemana.pdf',
+    workOutRoutine: [
+      {
+        label: 'Segunda - Superior (Força)',
+        caption: 'Foco em Baixas Reps e Alta Intensidade',
+        exercises: [
+          {
+            name: 'Barra Fixa (com peso ou progressão difícil)',
+            sets: '5',
+            reps: '4–6',
+            rest: '120 seg',
+          },
+          {
+            name: 'Flexão Declinado ou Pseudo Planche Push-Up',
+            sets: '4',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Barra Fixa Supinada (chin-up)',
+            sets: '4',
+            reps: '4–6',
+            rest: '120 seg',
+          },
+          {
+            name: 'Pike Push-Up (elevado)',
+            sets: '3',
+            reps: '6–10',
+            rest: '90 seg',
+          },
+          {
+            name: 'Prancha com Peso ou Avançada',
+            sets: '3',
+            reps: '40–60 seg',
+            rest: '60 seg',
+          },
+        ],
+      },
+      {
+        label: 'Terça - Inferior (Força)',
+        caption: 'Foco em Controle e Unilateral Pesado',
+        exercises: [
+          {
+            name: 'Pistol Squat',
+            sets: '5',
+            reps: '4–6 cada perna',
+            rest: '120 seg',
+          },
+          {
+            name: 'Agachamento Búlgaro',
+            sets: '4',
+            reps: '8–10 cada perna',
+            rest: '90 seg',
+          },
+          {
+            name: 'Nordic Curl (ou progressão)',
+            sets: '3',
+            reps: '4–6',
+            rest: '120 seg',
+          },
+          {
+            name: 'Elevação de Panturrilha (unilateral)',
+            sets: '4',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Hollow Body Hold',
+            sets: '3',
+            reps: '30–40 seg',
+            rest: '60 seg',
+          },
+        ],
+      },
+      {
+        label: 'Quarta - Superior (Volume)',
+        caption: 'Foco em Mais Reps e Resistência',
+        exercises: [
+          {
+            name: 'Barra Fixa',
+            sets: '4',
+            reps: '8–12',
+            rest: '90 seg',
+          },
+          {
+            name: 'Flexão de Braço',
+            sets: '4',
+            reps: '15–20',
+            rest: '60 seg',
+          },
+          {
+            name: 'Remada Australiana',
+            sets: '4',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Flexão Diamante',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Elevação de Pernas',
+            sets: '3',
+            reps: '15–20',
+            rest: '60 seg',
+          },
+        ],
+      },
+      {
+        label: 'Quinta - Inferior (Volume)',
+        caption: 'Foco em Resistência e Estímulo Metabólico',
+        exercises: [
+          {
+            name: 'Agachamento Livre (alto volume)',
+            sets: '4',
+            reps: '15–20',
+            rest: '60–90 seg',
+          },
+          {
+            name: 'Afundo (Lunge) Alternado',
+            sets: '4',
+            reps: '15 cada perna',
+            rest: '60 seg',
+          },
+          {
+            name: 'Step-Up em banco',
+            sets: '3',
+            reps: '12 cada perna',
+            rest: '60 seg',
+          },
+          {
+            name: 'Elevação de Panturrilha',
+            sets: '4',
+            reps: '20–25',
+            rest: '45 seg',
+          },
+          {
+            name: 'Prancha',
+            sets: '3',
+            reps: '40–60 seg',
+            rest: '45 seg',
+          },
+        ],
+      },
+      {
+        label: 'Sexta - Superior (Leve/Técnica)',
+        caption: 'Foco em Controle, Forma e Habilidade',
+        exercises: [
+          {
+            name: 'Barra Fixa (execução lenta)',
+            sets: '3',
+            reps: '6–8',
+            rest: '90 seg',
+          },
+          {
+            name: 'Flexão Controlada (tempo 3-1-3)',
+            sets: '3',
+            reps: '10–12',
+            rest: '60 seg',
+          },
+          {
+            name: 'Handstand (ou progressão na parede)',
+            sets: '4',
+            reps: '20–40 seg',
+            rest: '60 seg',
+          },
+          {
+            name: 'Remada Australiana (isometria no topo)',
+            sets: '3',
+            reps: '10 + 5 seg segurando',
+            rest: '60 seg',
+          },
+          {
+            name: 'Prancha com controle respiratório',
+            sets: '3',
+            reps: '40 seg',
+            rest: '45 seg',
+          },
+        ],
+      },
+      {
+        label: 'Sábado - Inferior (Leve/Core)',
+        caption: 'Foco em Mobilidade, Core e Estabilidade',
+        exercises: [
+          {
+            name: 'Agachamento Profundo (mobilidade)',
+            sets: '3',
+            reps: '12–15',
+            rest: '45 seg',
+          },
+          {
+            name: 'Cossack Squat (lateral)',
+            sets: '3',
+            reps: '8–10 cada lado',
+            rest: '60 seg',
+          },
+          {
+            name: 'Glute Bridge',
+            sets: '3',
+            reps: '15–20',
+            rest: '45 seg',
+          },
+          {
+            name: 'Elevação de Pernas',
+            sets: '3',
+            reps: '12–15',
+            rest: '60 seg',
+          },
+          {
+            name: 'Prancha Lateral',
+            sets: '3',
+            reps: '30 seg cada lado',
+            rest: '45 seg',
+          },
+        ],
+      },
+    ],
+  },
+
+  {
     id: 'fullBodyFatLossMen',
     title: 'Full Body Iniciante - Masculino',
     pdfFile: '/pdfs/fullBodyFatLossMen.pdf',
