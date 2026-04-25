@@ -199,13 +199,31 @@ export function selectWorkoutPlan(answers: Answers) {
         (treino) => treino.id === 'fullBodyCalisteniaIniciante'
       )
     }
+
+    if (experience === 'Intermediário') {
+      return fichasDeTreino.find(
+        (treino) => treino.id === 'calisteniaIntermediario5x'
+      )
+    }
+
+    if (experience === 'Avançado') {
+      return fichasDeTreino.find(
+        (treino) => treino.id === 'calisteniaAvancado5x'
+      )
+    }
   }
 
   //6x por semana
   if (frequency === '6x por semana') {
     if (experience === 'Iniciante') {
       return fichasDeTreino.find(
-        (treino) => treino.id === 'fullBodyCalisteniaIniciante'
+        (treino) => treino.id === 'calisteniaIniciante6x'
+      )
+    }
+
+    if (experience === 'Intermediário') {
+      return fichasDeTreino.find(
+        (treino) => treino.id === 'calisteniaIntermediario6x'
       )
     }
 
