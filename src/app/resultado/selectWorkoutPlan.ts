@@ -152,9 +152,14 @@ export function selectWorkoutPlan(answers: Answers) {
     //3x por semana
     if (frequency === '3x por semana') {
       if (experience === 'Iniciante') {
-        return fichasDeTreino.find(
-          (treino) => treino.id === 'fullBodyCalisteniaIniciante'
-        )
+        if (goal === 'Perder gordura') {
+          return fichasDeTreino.find(
+            (treino) => treino.id === 'hiitCalisteniaFatLoss'
+          )
+        } else
+          return fichasDeTreino.find(
+            (treino) => treino.id === 'fullBodyCalisteniaIniciante'
+          )
       }
 
       if (experience === 'Intermediário') {
@@ -174,9 +179,14 @@ export function selectWorkoutPlan(answers: Answers) {
   //4x por semana
   if (frequency === '4x por semana') {
     if (experience === 'Iniciante') {
-      return fichasDeTreino.find(
-        (treino) => treino.id === 'fullBodyCalisteniaIniciante'
-      )
+      if (goal === 'Perder gordura') {
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'hiitCalisteniaFatLoss'
+        )
+      } else
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'fullBodyCalisteniaIniciante'
+        )
     }
 
     if (experience === 'Intermediário') {

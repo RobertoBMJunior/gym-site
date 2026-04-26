@@ -1365,9 +1365,9 @@ export const fichasDeTreino: WorkOutPlan[] = [
   },
 
   {
-    id: 'calisteniaAvancado6xSemana',
+    id: 'calisteniaAvancado6x',
     title: 'Calistenia Avançado - 6x por Semana',
-    pdfFile: '/pdfs/calisteniaAvancado6xSemana.pdf',
+    pdfFile: '/pdfs/calisteniaAvancado6x.pdf',
     workOutRoutine: [
       {
         label: 'Segunda - Superior (Força)',
@@ -2758,9 +2758,9 @@ export const fichasDeTreino: WorkOutPlan[] = [
   },
 
   {
-    id: 'forcaFundamental',
+    id: 'baseInquebravel',
     title: 'Protocolo Base Inquebrável',
-    pdfFile: '/pdfs/forcaFundamental.pdf',
+    pdfFile: '/pdfs/baseInquebravel.pdf',
     workOutRoutine: [
       {
         label: 'Upper A',
@@ -2875,9 +2875,9 @@ export const fichasDeTreino: WorkOutPlan[] = [
   },
 
   {
-    id: 'corpoDeImpacto',
+    id: 'ArquiteturaDeForca',
     title: 'Protocolo Arquitetura de Força',
-    pdfFile: '/pdfs/corpoDeImpacto.pdf',
+    pdfFile: '/pdfs/ArquiteturaDeForca.pdf',
     workOutRoutine: [
       {
         label: 'Upper',
@@ -2948,9 +2948,9 @@ export const fichasDeTreino: WorkOutPlan[] = [
   },
 
   {
-    id: 'potenciaAvancada',
+    id: 'pilarDeTitanio',
     title: 'Protocolo Pilar de Titânio',
-    pdfFile: '/pdfs/potenciaAvancada.pdf',
+    pdfFile: '/pdfs/pilarDeTitanio.pdf',
     workOutRoutine: [
       {
         label: 'Push',
@@ -3028,9 +3028,9 @@ export const fichasDeTreino: WorkOutPlan[] = [
   },
 
   {
-    id: 'fundacaoDeAco',
+    id: 'fundacaoSolida',
     title: 'Protocolo Fundação Sólida',
-    pdfFile: '/pdfs/fundacaoDeAco.pdf',
+    pdfFile: '/pdfs/fundacaoSolida.pdf',
     workOutRoutine: [
       {
         label: 'Full Body A',

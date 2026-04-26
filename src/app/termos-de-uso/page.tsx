@@ -12,7 +12,7 @@ export default function TermosDeUso() {
       <h1 className="text-3xl font-bold mb-2">Termos de Uso</h1>
 
       <p className="mb-10 text-sm text-slate-500">
-        Última atualização: {new Date().toLocaleDateString('pt-BR')}
+        Última atualização: 20/04/2026
       </p>
 
       <div className="space-y-4 leading-relaxed">
