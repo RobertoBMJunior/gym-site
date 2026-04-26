@@ -34,7 +34,15 @@ export default function TreinoEmCasa() {
       <p className="mb-4">
         Fazer um treino em casa é uma ótima opção para quem quer começar a se
         exercitar sem precisar de academia. Com os exercícios certos, é possível
-        melhorar o condicionamento físico, ganhar força e até emagrecer.
+        melhorar o condicionamento físico, ganhar força e até emagrecer. Se você
+        ainda está no começo, vale entender primeiro como funciona um{' '}
+        <Link
+          href="/blog/treino-para-iniciantes"
+          className="text-blue-600 underline hover:text-blue-800 transition"
+        >
+          treino para iniciantes
+        </Link>{' '}
+        para montar uma base sólida.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -44,14 +52,25 @@ export default function TreinoEmCasa() {
       <p className="mb-4">
         Sim. Mesmo sem equipamentos, você pode ter resultados utilizando o peso
         do próprio corpo. O mais importante é manter consistência e executar os
-        exercícios corretamente.
+        exercícios corretamente. Dependendo do seu objetivo, você pode adaptar o
+        treino, seja para ganhar força ou focar mais em{' '}
+        <Link
+          href="/blog/treino-para-emagrecer"
+          className="text-blue-600 underline hover:text-blue-800 transition"
+        >
+          emagrecimento
+        </Link>
+        .
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
         Exemplo de treino em casa para iniciantes
       </h2>
 
-      <p className="mb-4">Este treino pode ser feito 3 vezes por semana:</p>
+      <p className="mb-4">
+        Este treino pode ser feito 3 vezes por semana e segue uma lógica de
+        corpo inteiro (full body), muito indicada para iniciantes:
+      </p>
 
       <ul className="list-disc pl-6 mb-4">
         <li>Agachamento – 3x12</li>
@@ -67,7 +86,16 @@ export default function TreinoEmCasa() {
 
       <p className="mb-4">
         Para quem quer emagrecer, o ideal é incluir exercícios mais dinâmicos,
-        como polichinelos, corrida no lugar e circuitos com pouco descanso.
+        como polichinelos, corrida no lugar e circuitos com pouco descanso. Esse
+        tipo de treino também pode evoluir com o tempo para estruturas mais
+        organizadas, como o{' '}
+        <Link
+          href="/blog/treino-abc"
+          className="text-blue-600 underline hover:text-blue-800 transition"
+        >
+          treino ABC
+        </Link>
+        , caso você decida treinar com mais frequência.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -76,7 +104,15 @@ export default function TreinoEmCasa() {
 
       <p className="mb-4">
         O ideal é treinar entre 3 a 5 vezes por semana. Comece com menos dias e
-        aumente conforme seu corpo se adapta.
+        aumente conforme seu corpo se adapta. Isso vale tanto para homens quanto
+        mulheres, podendo adaptar o treino conforme o objetivo, como em um{' '}
+        <Link
+          href="/blog/treino-feminino"
+          className="text-blue-600 underline hover:text-blue-800 transition"
+        >
+          treino feminino
+        </Link>
+        .
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -89,6 +125,42 @@ export default function TreinoEmCasa() {
         <li>Mantenha uma alimentação equilibrada</li>
         <li>Seja consistente</li>
       </ul>
+
+      {/* 🔥 Links internos finais */}
+      <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-10">
+        <h3 className="text-sm font-semibold text-slate-800 mb-3 uppercase tracking-wide">
+          Veja também
+        </h3>
+
+        <ul className="space-y-2 text-sm">
+          <li>
+            <Link
+              href="/blog/treino-para-iniciantes"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino para iniciantes
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/blog/treino-para-emagrecer"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino para emagrecer
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/blog/treino-feminino"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino feminino
+            </Link>
+          </li>
+        </ul>
+      </div>
 
       <div className="bg-slate-100 p-6 rounded-lg text-center mt-10">
         <h2 className="text-xl font-semibold mb-2">

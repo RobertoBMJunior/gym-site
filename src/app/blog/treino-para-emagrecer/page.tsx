@@ -33,7 +33,15 @@ export default function TreinoParaEmagrecer() {
       <p className="mb-4">
         Se o seu objetivo é emagrecer, combinar o treino certo com consistência
         é fundamental. Um bom treino para emagrecer ajuda a queimar calorias,
-        acelerar o metabolismo e preservar a massa muscular.
+        acelerar o metabolismo e preservar a massa muscular. Se você ainda está
+        começando, vale entender primeiro como funciona um{' '}
+        <Link
+          href="/blog/treino-para-iniciantes"
+          className="text-blue-600 underline hover:text-blue-800 transition"
+        >
+          treino para iniciantes
+        </Link>{' '}
+        antes de aumentar a intensidade.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -42,7 +50,15 @@ export default function TreinoParaEmagrecer() {
 
       <p className="mb-4">
         Não existe um único treino perfeito, mas os melhores resultados vêm da
-        combinação de exercícios de força com atividades cardiovasculares.
+        combinação de exercícios de força com atividades cardiovasculares. Com o
+        tempo, você pode evoluir para treinos mais estruturados, como o{' '}
+        <Link
+          href="/blog/treino-abc"
+          className="text-blue-600 underline hover:text-blue-800 transition"
+        >
+          treino ABC
+        </Link>
+        , que permite trabalhar diferentes grupos musculares com mais foco.
       </p>
 
       <ul className="list-disc pl-6 mb-4">
@@ -56,7 +72,9 @@ export default function TreinoParaEmagrecer() {
       </h2>
 
       <p className="mb-4">
-        Veja um exemplo simples que pode ser feito por iniciantes na academia:
+        Veja um exemplo simples que pode ser feito por iniciantes na academia.
+        Esse modelo segue uma estrutura de corpo inteiro, semelhante a um treino
+        full body, muito eficiente para quem quer emagrecer no começo:
       </p>
 
       <ul className="list-disc pl-6 mb-4">
@@ -75,7 +93,15 @@ export default function TreinoParaEmagrecer() {
 
       <p className="mb-4">
         Sim. Você não precisa de academia para começar. Exercícios com o peso do
-        próprio corpo já são suficientes para iniciar a perda de gordura.
+        próprio corpo já são suficientes para iniciar a perda de gordura. Se
+        esse é o seu caso, veja também esse{' '}
+        <Link
+          href="/blog/treino-em-casa"
+          className="text-blue-600 underline hover:text-blue-800 transition"
+        >
+          treino em casa
+        </Link>{' '}
+        que pode te ajudar a começar sem equipamentos.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -84,7 +110,8 @@ export default function TreinoParaEmagrecer() {
 
       <p className="mb-4">
         O ideal é treinar entre 3 a 5 vezes por semana, mantendo consistência e
-        respeitando o descanso. O mais importante é manter uma rotina regular.
+        respeitando o descanso. O mais importante é manter uma rotina regular,
+        independentemente do tipo de treino escolhido.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -97,6 +124,42 @@ export default function TreinoParaEmagrecer() {
         <li>Dormir bem</li>
         <li>Evitar longos períodos sem atividade</li>
       </ul>
+
+      {/* 🔥 Links internos finais */}
+      <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-10">
+        <h3 className="text-sm font-semibold text-slate-800 mb-3 uppercase tracking-wide">
+          Veja também
+        </h3>
+
+        <ul className="space-y-2 text-sm">
+          <li>
+            <Link
+              href="/blog/treino-para-iniciantes"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino para iniciantes
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/blog/treino-em-casa"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino em casa
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/blog/treino-abc"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino ABC explicado
+            </Link>
+          </li>
+        </ul>
+      </div>
 
       <div className="bg-slate-100 p-6 rounded-lg text-center mt-10">
         <h2 className="text-xl font-semibold mb-2">

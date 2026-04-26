@@ -33,7 +33,12 @@ export default function TreinoParaIniciantes() {
         Se você está começando na academia, é normal ter dúvidas sobre qual
         treino seguir, quais exercícios fazer e quantos dias treinar por semana.
         Neste guia completo de treino para iniciantes, você vai aprender o
-        básico para evoluir com segurança e consistência.
+        básico para evoluir com segurança e consistência. Se você prefere
+        treinar em casa, também vale conferir este{' '}
+        <Link href="/blog/treino-em-casa" className="text-blue-600 underline">
+          treino em casa
+        </Link>{' '}
+        para iniciantes.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -43,7 +48,13 @@ export default function TreinoParaIniciantes() {
       <p className="mb-4">
         O erro mais comum de quem está começando é tentar fazer treinos
         avançados logo no início. O ideal é começar com um treino simples,
-        focando na execução correta dos exercícios e na adaptação do corpo.
+        focando na execução correta dos exercícios e na adaptação do corpo. Se
+        você já pensa em evoluir no futuro, pode conhecer estruturas mais
+        divididas como o{' '}
+        <Link href="/blog/treino-abc" className="text-blue-600 underline">
+          treino ABC
+        </Link>
+        , que é muito usado por praticantes intermediários.
       </p>
 
       <ul className="list-disc pl-6 mb-4">
@@ -60,6 +71,14 @@ export default function TreinoParaIniciantes() {
       <p className="mb-4">
         Um dos melhores treinos para iniciantes é o treino de corpo inteiro
         (full body), que trabalha todos os grupos musculares na mesma sessão.
+        Esse tipo de treino também é muito usado em estratégias focadas em{' '}
+        <Link
+          href="/blog/treino-para-emagrecer"
+          className="text-blue-600 underline"
+        >
+          emagrecimento
+        </Link>
+        .
       </p>
 
       <ul className="list-disc pl-6 mb-4">
@@ -87,7 +106,11 @@ export default function TreinoParaIniciantes() {
       <p className="mb-4">
         O treino para iniciantes pode servir tanto para emagrecimento quanto
         para ganho de massa muscular. A principal diferença está na alimentação
-        e na intensidade do treino.
+        e na intensidade do treino. Existem também variações específicas, como o{' '}
+        <Link href="/blog/treino-feminino" className="text-blue-600 underline">
+          treino feminino
+        </Link>
+        , que pode ter ajustes de foco dependendo do objetivo.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -100,6 +123,42 @@ export default function TreinoParaIniciantes() {
         <li>Mantenha consistência</li>
         <li>Durma bem</li>
       </ul>
+
+      {/* 🔥 Links internos finais */}
+      <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-10">
+        <h3 className="text-sm font-semibold text-slate-800 mb-3 uppercase tracking-wide">
+          Veja também
+        </h3>
+
+        <ul className="space-y-2 text-sm">
+          <li>
+            <Link
+              href="/blog/treino-em-casa"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino em casa para iniciantes
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/blog/treino-para-emagrecer"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino para emagrecer
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/blog/treino-abc"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino ABC explicado
+            </Link>
+          </li>
+        </ul>
+      </div>
 
       {/* CTA */}
       <div className="bg-slate-100 p-6 rounded-lg text-center mt-10">

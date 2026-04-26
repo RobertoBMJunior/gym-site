@@ -34,7 +34,15 @@ export default function TreinoABC() {
       <p className="mb-4">
         O treino ABC é uma das divisões de treino mais populares na musculação.
         Ele organiza os exercícios por grupos musculares, permitindo maior foco
-        em cada região do corpo e melhor recuperação entre os treinos.
+        em cada região do corpo e melhor recuperação entre os treinos. Antes de
+        chegar nesse nível, muitas pessoas começam com um{' '}
+        <Link
+          href="/blog/treino-para-iniciantes"
+          className="text-blue-600 underline hover:text-blue-800 transition"
+        >
+          treino para iniciantes
+        </Link>{' '}
+        ou modelos de corpo inteiro.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">O que é treino ABC?</h2>
@@ -52,7 +60,16 @@ export default function TreinoABC() {
 
       <p className="mb-4">
         Essa divisão permite treinar com mais intensidade, já que você não
-        precisa trabalhar o corpo inteiro em um único dia.
+        precisa trabalhar o corpo inteiro em um único dia. Esse tipo de
+        organização é muito útil tanto para quem busca hipertrofia quanto para
+        quem também quer alinhar com estratégias de{' '}
+        <Link
+          href="/blog/treino-para-emagrecer"
+          className="text-blue-600 underline hover:text-blue-800 transition"
+        >
+          emagrecimento
+        </Link>
+        .
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -62,7 +79,15 @@ export default function TreinoABC() {
       <p className="mb-4">
         O treino ABC é ideal para quem já tem alguma experiência na academia e
         quer evoluir para uma divisão mais estruturada, focando em hipertrofia
-        (ganho de massa muscular).
+        (ganho de massa muscular). Se você ainda treina em casa, pode começar
+        com um{' '}
+        <Link
+          href="/blog/treino-em-casa"
+          className="text-blue-600 underline hover:text-blue-800 transition"
+        >
+          treino em casa
+        </Link>{' '}
+        antes de migrar para essa divisão.
       </p>
 
       <h2 className="text-xl font-semibold mt-6 mb-2">
@@ -122,8 +147,53 @@ export default function TreinoABC() {
       <p className="mb-4">
         Se você está começando, o ideal ainda é um treino mais simples, como o
         treino de corpo inteiro. O treino ABC faz mais sentido quando você já
-        tem alguma adaptação ao treino.
+        tem alguma adaptação ao treino. Para objetivos mais específicos, como
+        mulheres que buscam definição ou foco em membros inferiores, também é
+        possível adaptar com base em um{' '}
+        <Link
+          href="/blog/treino-feminino"
+          className="text-blue-600 underline hover:text-blue-800 transition"
+        >
+          treino feminino
+        </Link>
+        .
       </p>
+
+      {/* 🔥 Links internos finais */}
+      <div className="bg-slate-50 border border-slate-200 rounded-xl p-6 mb-10">
+        <h3 className="text-sm font-semibold text-slate-800 mb-3 uppercase tracking-wide">
+          Veja também
+        </h3>
+
+        <ul className="space-y-2 text-sm">
+          <li>
+            <Link
+              href="/blog/treino-para-iniciantes"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino para iniciantes
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/blog/treino-para-emagrecer"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino para emagrecer
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/blog/treino-feminino"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Treino feminino
+            </Link>
+          </li>
+        </ul>
+      </div>
 
       <div className="bg-slate-100 p-6 rounded-lg text-center mt-10">
         <h2 className="text-xl font-semibold mb-2">
