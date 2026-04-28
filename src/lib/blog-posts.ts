@@ -34,4 +34,12 @@ export const blogPosts = [
     image: '/images/blog/treino-feminino.jpg',
     date: '2026-04-24',
   },
+  {
+    title: 'Treino upper-lower',
+    description:
+      'Veja como montar um treino upper lower eficiente para ganhar massa e evoluir mais rápido.',
+    slug: 'treino-upper-lower',
+    image: '/images/blog/treino-upper-lower.jpg',
+    date: '2026-04-27',
+  },
 ]
