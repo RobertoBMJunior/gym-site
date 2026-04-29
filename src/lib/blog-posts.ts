@@ -42,4 +42,13 @@ export const blogPosts = [
     image: '/images/blog/treino-upper-lower.jpg',
     date: '2026-04-27',
   },
+
+  {
+    title: 'Treino Full Body',
+    description:
+      'Descubra por que o treino full body é ideal para iniciantes e quem treina poucos dias na semana.',
+    slug: 'treino-full-body',
+    image: '/images/blog/treino-full-body.jpg',
+    date: '2026-04-28',
+  },
 ]
