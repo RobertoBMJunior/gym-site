@@ -57,20 +57,20 @@ export const questions: Question[] = [
     type: 'options',
     options: ['Homem', 'Mulher'],
   },
-
-  // {
-  //   id: 'focus',
-  //   title: 'Qual região você quer priorizar?',
-  //   description: 'Ajuda a ajustar a ênfase dos exercícios.',
-  //   type: 'options',
-  //   options: ['Treino equilibrado', 'Parte superior', 'Pernas e glúteos'],
-  // },
-
-  // {
-  //   id: 'age',
-  //   title: 'Qual é a sua idade?',
-  //   description: 'A idade ajuda a ajustar volume e recuperação.',
-  //   type: 'number',
-  //   placeholder: 'Ex: 25',
-  // },
 ]
+
+// {
+//   id: 'focus',
+//   title: 'Qual região você quer priorizar?',
+//   description: 'Ajuda a ajustar a ênfase dos exercícios.',
+//   type: 'options',
+//   options: ['Treino equilibrado', 'Parte superior', 'Pernas e glúteos'],
+// },
+
+// {
+//   id: 'age',
+//   title: 'Qual é a sua idade?',
+//   description: 'A idade ajuda a ajustar volume e recuperação.',
+//   type: 'number',
+//   placeholder: 'Ex: 25',
+// },

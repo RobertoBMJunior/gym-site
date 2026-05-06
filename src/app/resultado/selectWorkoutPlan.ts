@@ -61,11 +61,13 @@ export function selectWorkoutPlan(answers: Answers) {
     //3x por semana
     if (frequency === '3x por semana') {
       if (experience === 'Iniciante') {
-        return fichasDeTreino.find((treino) => treino.id === 'fundacaoDeAco')
+        return fichasDeTreino.find((treino) => treino.id === 'fundacaoSolida')
       }
 
       if (experience === 'Intermediário') {
-        return fichasDeTreino.find((treino) => treino.id === 'corpoDeImpacto')
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'ArquiteturaDeForca'
+        )
       }
 
       if (experience === 'Avançado') {
@@ -86,7 +88,7 @@ export function selectWorkoutPlan(answers: Answers) {
     //4x por semana
     if (frequency === '4x por semana') {
       if (experience === 'Iniciante') {
-        return fichasDeTreino.find((treino) => treino.id === 'forcaFundamental')
+        return fichasDeTreino.find((treino) => treino.id === 'baseInquebravel')
       }
 
       if (experience === 'Intermediário') {
@@ -96,7 +98,7 @@ export function selectWorkoutPlan(answers: Answers) {
       }
 
       if (experience === 'Avançado') {
-        return fichasDeTreino.find((treino) => treino.id === 'potenciaAvancada')
+        return fichasDeTreino.find((treino) => treino.id === 'pilarDeTitanio')
       }
     }
 
@@ -174,73 +176,73 @@ export function selectWorkoutPlan(answers: Answers) {
         )
       }
     }
-  }
 
-  //4x por semana
-  if (frequency === '4x por semana') {
-    if (experience === 'Iniciante') {
-      if (goal === 'Perder gordura') {
+    //4x por semana
+    if (frequency === '4x por semana') {
+      if (experience === 'Iniciante') {
+        if (goal === 'Perder gordura') {
+          return fichasDeTreino.find(
+            (treino) => treino.id === 'hiitCalisteniaFatLoss'
+          )
+        } else
+          return fichasDeTreino.find(
+            (treino) => treino.id === 'fullBodyCalisteniaIniciante'
+          )
+      }
+
+      if (experience === 'Intermediário') {
         return fichasDeTreino.find(
-          (treino) => treino.id === 'hiitCalisteniaFatLoss'
+          (treino) => treino.id === 'upperLowerCalisteniaIntermediario4x'
         )
-      } else
+      }
+
+      if (experience === 'Avançado') {
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'upperLowerCalisteniaAvancado4x'
+        )
+      }
+    }
+
+    //5x por semana
+    if (frequency === '5x por semana') {
+      if (experience === 'Iniciante') {
         return fichasDeTreino.find(
           (treino) => treino.id === 'fullBodyCalisteniaIniciante'
         )
+      }
+
+      if (experience === 'Intermediário') {
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'calisteniaIntermediario5x'
+        )
+      }
+
+      if (experience === 'Avançado') {
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'calisteniaAvancado5x'
+        )
+      }
     }
 
-    if (experience === 'Intermediário') {
-      return fichasDeTreino.find(
-        (treino) => treino.id === 'upperLowerCalisteniaIntermediario4x'
-      )
-    }
+    //6x por semana
+    if (frequency === '6x por semana') {
+      if (experience === 'Iniciante') {
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'calisteniaIniciante6x'
+        )
+      }
 
-    if (experience === 'Avançado') {
-      return fichasDeTreino.find(
-        (treino) => treino.id === 'upperLowerCalisteniaAvancado4x'
-      )
-    }
-  }
+      if (experience === 'Intermediário') {
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'calisteniaIntermediario6x'
+        )
+      }
 
-  //5x por semana
-  if (frequency === '5x por semana') {
-    if (experience === 'Iniciante') {
-      return fichasDeTreino.find(
-        (treino) => treino.id === 'fullBodyCalisteniaIniciante'
-      )
-    }
-
-    if (experience === 'Intermediário') {
-      return fichasDeTreino.find(
-        (treino) => treino.id === 'calisteniaIntermediario5x'
-      )
-    }
-
-    if (experience === 'Avançado') {
-      return fichasDeTreino.find(
-        (treino) => treino.id === 'calisteniaAvancado5x'
-      )
-    }
-  }
-
-  //6x por semana
-  if (frequency === '6x por semana') {
-    if (experience === 'Iniciante') {
-      return fichasDeTreino.find(
-        (treino) => treino.id === 'calisteniaIniciante6x'
-      )
-    }
-
-    if (experience === 'Intermediário') {
-      return fichasDeTreino.find(
-        (treino) => treino.id === 'calisteniaIntermediario6x'
-      )
-    }
-
-    if (experience === 'Avançado') {
-      return fichasDeTreino.find(
-        (treino) => treino.id === 'calisteniaAvancado6xSemana'
-      )
+      if (experience === 'Avançado') {
+        return fichasDeTreino.find(
+          (treino) => treino.id === 'calisteniaAvancado6xSemana'
+        )
+      }
     }
   }
 
