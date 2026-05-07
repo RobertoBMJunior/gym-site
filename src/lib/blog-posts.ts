@@ -51,4 +51,12 @@ export const blogPosts = [
     image: '/images/blog/treino-full-body.jpg',
     date: '2026-04-28',
   },
+  {
+    title: 'Calistenia',
+    description:
+      'Aprenda como começar na calistenia e evoluir usando apenas o peso do corpo.',
+    slug: 'calistenia',
+    image: '/images/blog/calistenia1.jpg',
+    date: '2026-04-29',
+  },
 ]
