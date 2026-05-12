@@ -57,6 +57,15 @@ export const blogPosts = [
       'Aprenda como começar na calistenia e evoluir usando apenas o peso do corpo.',
     slug: 'calistenia',
     image: '/images/blog/calistenia1.jpg',
-    date: '2026-04-29',
+    date: '2026-05-06',
+  },
+
+  {
+    title: 'Hipertrofia',
+    description:
+      'Aprenda o que é hipertrofia muscular, como ganhar massa e quais fatores realmente influenciam seus resultados.',
+    slug: 'hipertrofia',
+    image: '/images/blog/hipertrofia.jpg',
+    date: '2026-05-12',
   },
 ]
