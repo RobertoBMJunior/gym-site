@@ -68,4 +68,13 @@ export const blogPosts = [
     image: '/images/blog/hipertrofia.jpg',
     date: '2026-05-12',
   },
+
+  {
+    title: 'Quanto tempo para ver resultados na academia?',
+    description:
+      'Saiba quando os primeiros resultados da academia costumam aparecer e entenda como treino, alimentação e consistência influenciam sua evolução.',
+    slug: 'quanto-tempo-para-ver-resultados-na-academia',
+    image: '/images/blog/tempo-para-ver-resultados.jpg',
+    date: '2026-06-01',
+  },
 ]
