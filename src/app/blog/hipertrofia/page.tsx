@@ -227,6 +227,15 @@ export default function Hipertrofia() {
               Treino ABC
             </Link>
           </li>
+
+          <li>
+            <Link
+              href="/blog/como-ganhar-massa-muscular"
+              className="text-blue-600 underline hover:text-blue-800 transition"
+            >
+              Como Ganhar Massa Muscular
+            </Link>
+          </li>
         </ul>
       </div>
 

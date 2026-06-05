@@ -77,4 +77,13 @@ export const blogPosts = [
     image: '/images/blog/tempo-para-ver-resultados.jpg',
     date: '2026-06-01',
   },
+
+  {
+    title: 'Como ganhar massa muscular: guia completo para hipertrofia',
+    description:
+      'Aprenda como ganhar massa muscular de forma eficiente com treino, alimentação, sono e consistência.',
+    slug: 'como-ganhar-massa-muscular',
+    image: '/images/blog/como-ganhar-massa-muscular.jpg',
+    date: '2026-06-04',
+  },
 ]
