@@ -86,4 +86,13 @@ export const blogPosts = [
     image: '/images/blog/como-ganhar-massa-muscular.jpg',
     date: '2026-06-04',
   },
+
+  {
+    title: 'Melhores exercícios para glúteos: guia completo para ganhar volume',
+    description:
+      'Conheça os melhores exercícios para glúteos, como montar um treino eficiente e quais movimentos realmente ajudam a desenvolver a região.',
+    slug: 'melhores-exercicios-para-gluteos',
+    image: '/images/blog/melhores-exercicios-para-gluteos.jpg',
+    date: '2026-06-20',
+  },
 ]
