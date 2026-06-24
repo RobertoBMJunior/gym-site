@@ -95,4 +95,12 @@ export const blogPosts = [
     image: '/images/blog/melhores-exercicios-para-gluteos.jpg',
     date: '2026-06-20',
   },
+
+  {
+    title: 'HIIT: o que é, benefícios e como fazer corretamente',
+    description: 'Descubra o que é HIIT, como funciona o treino intervalado de alta intensidade e quando ele pode ajudar no emagrecimento.',
+    slug: 'hiit',
+    image: '/images/blog/hiit.jpg',
+    date: '2026-06-23',
+  },
 ]
