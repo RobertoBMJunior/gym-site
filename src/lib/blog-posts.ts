@@ -98,9 +98,19 @@ export const blogPosts = [
 
   {
     title: 'HIIT: o que é, benefícios e como fazer corretamente',
-    description: 'Descubra o que é HIIT, como funciona o treino intervalado de alta intensidade e quando ele pode ajudar no emagrecimento.',
+    description:
+      'Descubra o que é HIIT, como funciona o treino intervalado de alta intensidade e quando ele pode ajudar no emagrecimento.',
     slug: 'hiit',
     image: '/images/blog/hiit.jpg',
     date: '2026-06-23',
+  },
+
+  {
+    title: 'Divisão de treino: como escolher a melhor para seus objetivos?',
+    description:
+      'Aprenda o que é uma divisão de treino, quais são os principais tipos e descubra qual faz mais sentido para sua rotina.',
+    slug: 'divisao-de-treino',
+    image: '/images/blog/divisao-de-treino.jpg',
+    date: '2026-06-28',
   },
 ]
