@@ -22,6 +22,15 @@ export default function Hipertrofia() {
         Hipertrofia: como ganhar massa muscular de forma eficiente
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 12 de maio de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Aprenda o que é hipertrofia muscular, como ganhar massa e quais fatores
+        realmente influenciam seus resultados.
+      </p>
+
       <div className="relative w-full aspect-video mb-6 overflow-hidden rounded-lg">
         <Image
           src="/images/blog/hipertrofia.jpg"

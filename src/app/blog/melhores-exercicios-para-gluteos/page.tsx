@@ -22,6 +22,15 @@ export default function MelhoresExerciciosParaGluteos() {
         Melhores exercícios para glúteos: quais realmente funcionam?
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 20 de junho de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Conheça os melhores exercícios para glúteos, como montar um treino
+        eficiente e quais movimentos realmente ajudam a desenvolver a região.
+      </p>
+
       <div className="relative w-full aspect-video mb-6 overflow-hidden rounded-lg">
         <Image
           src="/images/blog/melhores-exercicios-para-gluteos.jpg"

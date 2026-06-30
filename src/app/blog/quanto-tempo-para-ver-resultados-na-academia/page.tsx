@@ -22,6 +22,16 @@ export default function QuantoTempoParaVerResultadosNaAcademia() {
         Quanto tempo para ver resultados na academia?
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 01 de junho de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Saiba quando os primeiros resultados da academia costumam aparecer e
+        entenda como treino, alimentação e consistência influenciam sua
+        evolução.
+      </p>
+
       <div className="relative w-full aspect-video mb-6 overflow-hidden rounded-lg">
         <Image
           src="/images/blog/tempo-para-ver-resultados.jpg"

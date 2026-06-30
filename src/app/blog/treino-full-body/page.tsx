@@ -22,6 +22,15 @@ export default function TreinoFullBody() {
         Treino Full Body: como funciona e para quem é ideal
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 28 de abril de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Descubra por que o treino full body é ideal para iniciantes e quem
+        treina poucos dias na semana.
+      </p>
+
       <div className="relative w-full aspect-video mb-6 overflow-hidden rounded-lg">
         <Image
           src="/images/blog/treino-full-body.jpg"

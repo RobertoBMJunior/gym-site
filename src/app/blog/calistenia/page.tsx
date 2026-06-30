@@ -22,6 +22,15 @@ export default function Calistenia() {
         Calistenia: como começar e ganhar força usando o peso do corpo
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 06 de maio de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Aprenda o que é calistenia, como começar e veja exercícios para ganhar
+        força, músculo e melhorar o condicionamento físico usando apenas o peso do corpo.
+      </p>
+
       <div className="relative w-full aspect-video mb-6 overflow-hidden rounded-lg">
         <Image
           src="/images/blog/calistenia1.jpg"

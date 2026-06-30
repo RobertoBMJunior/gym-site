@@ -22,6 +22,15 @@ export default function ComoGanharMassaMuscular() {
         Como ganhar massa muscular: o que realmente funciona
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 04 de junho de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Aprenda como ganhar massa muscular de forma eficiente com treino,
+        alimentação, sono e consistência.
+      </p>
+
       <div className="relative w-full aspect-video mb-6 overflow-hidden rounded-lg">
         <Image
           src="/images/blog/como-ganhar-massa-muscular.jpg"

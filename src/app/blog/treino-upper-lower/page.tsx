@@ -22,6 +22,15 @@ export default function TreinoUpperLower() {
         Treino Upper Lower: como funciona e como usar para ganhar massa
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 27 de abril de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Aprenda como funciona o treino Upper Lower, uma das melhores divisões
+        para ganhar massa e organizar seus treinos.
+      </p>
+
       <div className="relative w-full aspect-video mb-6 overflow-hidden rounded-lg">
         <Image
           src="/images/blog/treino-upper-lower.jpg"
