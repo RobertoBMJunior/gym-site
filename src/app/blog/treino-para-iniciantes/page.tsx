@@ -21,6 +21,15 @@ export default function TreinoParaIniciantes() {
         Treino para iniciantes na academia: guia completo para começar certo
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 20 de abril de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Aprenda como montar um treino para iniciantes na academia com segurança.
+        Veja exemplos práticos e gere seu treino personalizado.
+      </p>
+
       <Image
         src="/images/blog/treino-iniciantes.jpg"
         alt="treino para iniciantes na academia"

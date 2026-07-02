@@ -22,6 +22,15 @@ export default function TreinoEmCasa() {
         Treino em casa: como treinar sem equipamentos e ter resultados
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 23 de abril de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Aprenda como fazer um treino em casa eficiente, sem equipamentos. Veja
+        exercícios, dicas e monte seu treino ideal.
+      </p>
+
       <div className="relative w-full aspect-video mb-6 overflow-hidden rounded-lg">
         <Image
           src="/images/blog/treino-em-casa.jpg"

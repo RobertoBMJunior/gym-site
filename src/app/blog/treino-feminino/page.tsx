@@ -22,6 +22,15 @@ export default function TreinoFeminino() {
         Treino feminino: como montar um treino para emagrecer e definir o corpo
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 24 de abril de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Veja como montar um treino feminino eficiente para emagrecer, ganhar
+        glúteos e definir o corpo. Guia completo para iniciantes.
+      </p>
+
       <div className="relative w-full aspect-video mb-6 overflow-hidden rounded-lg">
         <Image
           src="/images/blog/treino-feminino.jpg"

@@ -27,7 +27,7 @@ export default function TreinoFullBody() {
       </p>
 
       <p className="text-lg text-slate-600 mb-6">
-        Descubra por que o treino full body é ideal para iniciantes e quem
+        Descubra por que o treino full body é ideal para iniciantes e para quem
         treina poucos dias na semana.
       </p>
 

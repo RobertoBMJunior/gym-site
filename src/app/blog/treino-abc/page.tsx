@@ -22,6 +22,15 @@ export default function TreinoABC() {
         Treino ABC: como funciona e como usar para ganhar massa muscular
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 22 de abril de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Entenda como funciona o treino ABC, uma das divisões mais populares da
+        musculação. Veja como montar e quando usar.
+      </p>
+
       <div className="relative w-full aspect-video mb-6 overflow-hidden rounded-lg">
         <Image
           src="/images/blog/treino-abc.jpg"

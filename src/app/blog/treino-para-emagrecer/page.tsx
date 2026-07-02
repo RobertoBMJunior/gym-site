@@ -22,6 +22,15 @@ export default function TreinoParaEmagrecer() {
         Treino para emagrecer: como perder gordura de forma eficiente
       </h1>
 
+      <p className="text-sm text-slate-500 mb-2">
+        Publicado em 21 de abril de 2026
+      </p>
+
+      <p className="text-lg text-slate-600 mb-6">
+        Descubra o melhor treino para emagrecer rápido, com exercícios eficazes,
+        dicas práticas e estratégias para perder gordura com saúde.
+      </p>
+
       <Image
         src="/images/blog/treino-para-emagrecer.jpg"
         alt="treino para emagrecer na academia"
